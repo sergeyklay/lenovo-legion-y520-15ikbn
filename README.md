@@ -1,7 +1,8 @@
 # Lenovo Y520 (Legion) Setup
 
-This repository contains my personal configuration for my Laptop Lenovo
-Y520 (Legion) that I use on the daily as a secondary workstation.
+This repository contains my personal configuration for my laptop
+`Lenovo Y520-15IKBN (Legion) Type 80WK` that I use on the daily as
+a secondary workstation.
 
 This repository holds the following configurations:
 

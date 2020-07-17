@@ -1,0 +1,13 @@
+sys-apps/util-linux static-libs
+
+# required by net-im/telegram-desktop-2.1.0-r1::gentoo
+# required by net-im/telegram-desktop (argument)
+>=media-video/ffmpeg-4.2.3 opus
+
+# required by net-im/telegram-desktop-2.1.0-r1::gentoo
+# required by net-im/telegram-desktop (argument)
+>=sys-libs/zlib-1.2.11-r2 minizip
+
+# required by mail-client/thunderbird-68.10.0::gentoo[system-sqlite]
+# required by mail-client/thunderbird (argument)
+>=dev-db/sqlite-3.32.3 secure-delete

@@ -7,7 +7,9 @@ a secondary workstation.
 This repository holds the following configurations:
 
 - Linux Kernel Configuration
+- Linux Kernel Modules
 - Gentoo USE flags
+- X11 Configuration
 
 ## License
 

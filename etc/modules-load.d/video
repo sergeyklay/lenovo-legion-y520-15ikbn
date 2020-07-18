@@ -1,0 +1,4 @@
+sysimgblt
+syscopyarea
+fb_sys_fops
+sysfillrect

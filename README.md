@@ -8,7 +8,7 @@ This repository holds the following configurations:
 
 - Linux Kernel Configuration
 - Linux Kernel Modules
-- Gentoo USE flags
+- Gentoo Portage Configuration
 - X11 Configuration
 
 ## License

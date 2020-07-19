@@ -1,0 +1,2 @@
+# See https://forums.gentoo.org/viewtopic-p-8482142.html#8482142
+>dev-lang/rust-1.44.99

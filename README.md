@@ -9,7 +9,12 @@ This repository holds the following configurations:
 - Linux Kernel Configuration
 - Linux Kernel Modules
 - Gentoo Portage Configuration
-- X11 Configuration
+
+Key features:
+
+- Gnome
+- Systemd
+- Wayland
 
 ## License
 

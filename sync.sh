@@ -10,4 +10,3 @@ cp "/usr/src/linux-$(uname -r)/.config" "$(pwd)/usr/src/linux/.config"
 
 # Kernel modules
 rsync -a --delete /etc/modules-load.d/ "$(pwd)/etc/modules-load.d/"
-cp /etc/modprobe.d/audio_powersave.conf "$(pwd)/etc/modprobe.d/audio_powersave.conf"

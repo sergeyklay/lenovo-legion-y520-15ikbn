@@ -15,6 +15,7 @@ Key features:
 - Gnome
 - Systemd
 - Wayland
+- UEFI BIOS
 
 ## License
 

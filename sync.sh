@@ -4,6 +4,7 @@
 rsync -a --delete /etc/portage/package.use/ "$(pwd)/etc/portage/package.use/"
 cp /etc/portage/make.conf "$(pwd)/etc/portage/make.conf"
 cp /etc/portage/package.mask "$(pwd)/etc/portage/package.mask"
+cp /etc/portage/package.license "$(pwd)/etc/portage/package.license"
 
 # Kernel config
 cp "/usr/src/linux-$(uname -r)/.config" "$(pwd)/usr/src/linux/.config"

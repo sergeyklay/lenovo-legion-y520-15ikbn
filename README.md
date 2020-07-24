@@ -19,8 +19,8 @@ Key features:
 
 ## Logs
 
-There are some logs in the `logs` directory I keep for historical and debugging
-purposes:
+There are some logs in the `logs` directory I keep for historical reasons and
+debugging purposes:
 
 - [dmesg](./logs/dmesg) - The Kernel Ring Buffer
 - [lspci](./logs/lspci) - List of All PCI Devices

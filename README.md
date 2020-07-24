@@ -19,7 +19,7 @@ Key features:
 
 ## Logs
 
-There are some logs in the `logs` diresctory I keep for historical and debugging
+There are some logs in the `logs` directory I keep for historical and debugging
 reasons:
 
 - [dmesg](./logs/dmesg) - The Kernel Ring Buffer

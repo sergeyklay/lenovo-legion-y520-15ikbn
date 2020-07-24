@@ -17,6 +17,14 @@ Key features:
 - Wayland
 - UEFI BIOS
 
+## Logs
+
+There are some logs in the `logs` diresctory I keep for historical and debugging
+reasons:
+
+- [dmesg](./logs/dmesg) - The Kernel Ring Buffer
+- [lspci](./logs/lspci) - List of All PCI Devices
+
 ## License
 
 This is free and unencumbered software released into the public domain.

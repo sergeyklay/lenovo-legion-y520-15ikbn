@@ -20,10 +20,11 @@ Key features:
 ## Logs
 
 There are some logs in the `logs` directory I keep for historical and debugging
-reasons:
+purposes:
 
 - [dmesg](./logs/dmesg) - The Kernel Ring Buffer
 - [lspci](./logs/lspci) - List of All PCI Devices
+- [lsusb](./logs/lsusb) - List of USB Devices
 
 ## License
 

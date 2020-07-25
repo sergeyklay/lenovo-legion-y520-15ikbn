@@ -88,7 +88,7 @@ Binary Object Store Descriptor:
 Device Status:     0x0001
   Self Powered
 
-Bus 001 Device 003: ID 04f2:b57e Chicony Electronics Co., Ltd EasyCamera
+Bus 001 Device 002: ID 04f2:b57e Chicony Electronics Co., Ltd EasyCamera
 Device Descriptor:
   bLength                18
   bDescriptorType         1
@@ -679,7 +679,7 @@ Device Qualifier (for other device speed):
 Device Status:     0x0000
   (Bus Powered)
 
-Bus 001 Device 004: ID 8087:0a2b Intel Corp. 
+Bus 001 Device 003: ID 8087:0a2b Intel Corp. 
 Device Descriptor:
   bLength                18
   bDescriptorType         1

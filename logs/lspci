@@ -10,6 +10,7 @@
 00:14.0 USB controller [0c03]: Intel Corporation 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller [8086:a12f] (rev 31)
 	Subsystem: Lenovo 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller [17aa:381d]
 	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
 00:14.2 Signal processing controller [1180]: Intel Corporation 100 Series/C230 Series Chipset Family Thermal Subsystem [8086:a131] (rev 31)
 	Subsystem: Lenovo 100 Series/C230 Series Chipset Family Thermal Subsystem [17aa:3805]
 	Kernel driver in use: intel_pch_thermal

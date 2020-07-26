@@ -19,12 +19,12 @@ This repository holds the following configurations:
 
 ## Logs
 
-There are some logs in the `logs` directory I keep for historical reasons and
-debugging purposes:
+There are some logs in the `var/logs/` directory I keep for historical reasons
+and debugging purposes:
 
-- [dmesg](./logs/dmesg) - The Kernel Ring Buffer
-- [lspci](./logs/lspci) - List of All PCI Devices
-- [lsusb](./logs/lsusb) - List of USB Devices
+- [dmesg](./var/logs/dmesg) - The Kernel Ring Buffer
+- [lspci](./var/logs/lspci) - List of All PCI Devices
+- [lsusb](./var/logs/lsusb) - List of USB Devices
 
 ## License
 

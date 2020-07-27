@@ -6,6 +6,9 @@ cp /etc/portage/make.conf "$(pwd)/etc/portage/make.conf"
 cp /etc/portage/package.mask "$(pwd)/etc/portage/package.mask"
 cp /etc/portage/package.license "$(pwd)/etc/portage/package.license"
 
+# Grub
+cp /etc/default/grub "$(pwd)/etc/default"
+
 # Kernel config
 cp "/usr/src/linux-$(uname -r)/.config" "$(pwd)/usr/src/linux/.config"
 

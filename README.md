@@ -9,9 +9,11 @@ This repository holds the following configurations:
 - Linux Kernel Configuration
 - Linux Kernel Modules
 - Gentoo Portage Configuration
+- GRUB Configuration
 
 ## Key features
 
+- GRUB2
 - Gnome
 - Systemd
 - Wayland

@@ -14,3 +14,6 @@ cp "/usr/src/linux-$(uname -r)/.config" "$(pwd)/usr/src/linux/.config"
 
 # Kernel modules
 rsync -a --delete /etc/modules-load.d/ "$(pwd)/etc/modules-load.d/"
+
+# Samba config
+cp /etc/samba/smb.conf "$(pwd)/etc/samba/smb.conf"

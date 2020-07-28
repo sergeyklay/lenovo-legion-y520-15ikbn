@@ -13,11 +13,12 @@ This repository holds the following configurations:
 
 ## Key features
 
-- GRUB2
-- Gnome
-- Systemd
-- Wayland
 - UEFI BIOS
+- GRUB2
+- Systemd
+- Gnome
+- Samba
+- Wayland
 
 ## Logs
 

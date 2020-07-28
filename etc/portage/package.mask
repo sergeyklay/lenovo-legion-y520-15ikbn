@@ -1,3 +1,1 @@
-# See https://forums.gentoo.org/viewtopic-p-8482142.html#8482142
->=dev-lang/rust-1.45.0
->=virtual/rust-1.45.0
+

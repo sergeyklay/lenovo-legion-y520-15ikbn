@@ -28,6 +28,7 @@ and debugging purposes:
 - [dmesg](./var/logs/dmesg) - The Kernel Ring Buffer
 - [lspci](./var/logs/lspci) - List of All PCI Devices
 - [lsusb](./var/logs/lsusb) - List of USB Devices
+- [rfkill](./var/logs/rfkill) - List of all available wireless devices
 
 ## License
 

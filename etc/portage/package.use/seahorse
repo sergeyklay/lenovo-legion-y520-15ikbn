@@ -1,1 +1,1 @@
-app-crypt/seahorse -ldap zeroconf
+app-crypt/seahorse -ldap

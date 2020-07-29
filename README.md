@@ -25,9 +25,9 @@ This repository holds the following configurations:
 There are some logs in the `var/logs/` directory I keep for historical reasons
 and debugging purposes:
 
-- [dmesg](./var/logs/dmesg) - The Kernel Ring Buffer
-- [lspci](./var/logs/lspci) - List of All PCI Devices
-- [lsusb](./var/logs/lsusb) - List of USB Devices
+- [dmesg](./var/logs/dmesg) - The Kernel ring buffer
+- [lspci](./var/logs/lspci) - List of all PCI devices
+- [lsusb](./var/logs/lsusb) - List of USB devices
 - [rfkill](./var/logs/rfkill) - List of all available wireless devices
 
 ## License

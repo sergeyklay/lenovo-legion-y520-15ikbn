@@ -30,7 +30,17 @@ and debugging purposes:
 - [lsusb](./var/logs/lsusb) - List of USB devices
 - [rfkill](./var/logs/rfkill) - List of all available wireless devices
 
+## Links
+
+Other projects I also support from time to time are:
+
+- [GNU Emacs configuration][emacsd]: My personal configuration for GNU Emacs
+- [Dotfiles][dotfiles]: All my dotfiles that I port around from system to system with me
+
 ## License
 
 This is free and unencumbered software released into the public domain.
 For more see [LICENSE](./LICENSE) file.
+
+[emacsd]: https://github.com/sergeyklay/.emacs.d
+[dotfiles]: https://github.com/sergeyklay/dotfiles

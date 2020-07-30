@@ -1,1 +1,1 @@
-net-fs/samba zeroconf
+net-fs/samba -cups zeroconf

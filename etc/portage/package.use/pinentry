@@ -1,1 +1,1 @@
-app-crypt/pinentry emacs
+app-crypt/pinentry -qt5 emacs

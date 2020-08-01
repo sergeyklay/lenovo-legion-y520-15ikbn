@@ -1,1 +1,1 @@
-sys-block/gparted fat hfs
+sys-block/gparted fat hfs ntfs udf

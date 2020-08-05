@@ -26,6 +26,7 @@ There are some logs in the `var/logs/` directory I keep for historical reasons
 and debugging purposes:
 
 - [dmesg](./var/logs/dmesg) - The Kernel ring buffer
+- [lsmod](./var/logs/lsmod) - The status of loaded modules
 - [lspci](./var/logs/lspci) - List of all PCI devices
 - [lsusb](./var/logs/lsusb) - List of USB devices
 - [rfkill](./var/logs/rfkill) - List of all available wireless devices

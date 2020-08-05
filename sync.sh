@@ -20,3 +20,6 @@ cp /etc/samba/smb.conf "$(pwd)/etc/samba/smb.conf"
 
 # Name Service Switch configuration
 cp /etc/nsswitch.conf "$(pwd)/etc/nsswitch.conf"
+
+#
+cp /etc/genkernel.conf "$(pwd)/etc/genkernel.conf"

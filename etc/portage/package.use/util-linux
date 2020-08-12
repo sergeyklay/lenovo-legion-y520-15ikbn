@@ -11,3 +11,8 @@ sys-apps/util-linux static-libs
 # required by mail-client/thunderbird-68.10.0::gentoo[system-sqlite]
 # required by mail-client/thunderbird (argument)
 >=dev-db/sqlite-3.32.3 secure-delete
+
++# required by www-client/firefox-79.0-r2::gentoo
++# required by @selected
++# required by @world (argument)
++>=media-libs/libvpx-1.9.0 postproc

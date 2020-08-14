@@ -11,7 +11,7 @@ Device Descriptor:
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0003 3.0 root hub
   bcdDevice            5.08
-  iManufacturer           3 Linux 5.8.0-gentoo-r1 xhci-hcd
+  iManufacturer           3 Linux 5.8.1-gentoo xhci-hcd
   iProduct                2 xHCI Host Controller
   iSerial                 1 0000:00:14.0
   bNumConfigurations      1
@@ -679,7 +679,7 @@ Device Qualifier (for other device speed):
 Device Status:     0x0000
   (Bus Powered)
 
-Bus 001 Device 003: ID 8087:0a2b Intel Corp. 
+Bus 001 Device 003: ID 8087:0a2b Intel Corp. Bluetooth wireless interface
 Device Descriptor:
   bLength                18
   bDescriptorType         1
@@ -689,7 +689,7 @@ Device Descriptor:
   bDeviceProtocol         1 Bluetooth
   bMaxPacketSize0        64
   idVendor           0x8087 Intel Corp.
-  idProduct          0x0a2b 
+  idProduct          0x0a2b Bluetooth wireless interface
   bcdDevice            0.10
   iManufacturer           0 
   iProduct                0 
@@ -941,7 +941,7 @@ Device Descriptor:
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0002 2.0 root hub
   bcdDevice            5.08
-  iManufacturer           3 Linux 5.8.0-gentoo-r1 xhci-hcd
+  iManufacturer           3 Linux 5.8.1-gentoo xhci-hcd
   iProduct                2 xHCI Host Controller
   iSerial                 1 0000:00:14.0
   bNumConfigurations      1

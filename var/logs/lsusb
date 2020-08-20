@@ -11,7 +11,7 @@ Device Descriptor:
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0003 3.0 root hub
   bcdDevice            5.08
-  iManufacturer           3 Linux 5.8.1-gentoo xhci-hcd
+  iManufacturer           3 Linux 5.8.2-gentoo xhci-hcd
   iProduct                2 xHCI Host Controller
   iSerial                 1 0000:00:14.0
   bNumConfigurations      1
@@ -941,7 +941,7 @@ Device Descriptor:
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0002 2.0 root hub
   bcdDevice            5.08
-  iManufacturer           3 Linux 5.8.1-gentoo xhci-hcd
+  iManufacturer           3 Linux 5.8.2-gentoo xhci-hcd
   iProduct                2 xHCI Host Controller
   iSerial                 1 0000:00:14.0
   bNumConfigurations      1

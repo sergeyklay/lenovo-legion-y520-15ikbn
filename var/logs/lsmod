@@ -74,8 +74,8 @@ btrtl                  16384  1 btusb
 btintel                24576  1 btusb
 hidp                   24576  0
 bnep                   20480  2
-rfcomm                 49152  12
-bluetooth             466944  43 btrtl,hidp,btintel,bnep,btusb,rfcomm
+rfcomm                 49152  0
+bluetooth             466944  33 btrtl,hidp,btintel,bnep,btusb,rfcomm
 ecdh_generic           16384  2 bluetooth
 ecc                    32768  1 ecdh_generic
 snd_hda_codec_hdmi     61440  1
@@ -86,55 +86,55 @@ intel_rapl_common      28672  1 intel_rapl_msr
 iwlmvm                348160  0
 snd_hda_intel          36864  3
 mac80211              741376  1 iwlmvm
-x86_pkg_temp_thermal    20480  0
 snd_intel_dspcfg       16384  1 snd_hda_intel
+snd_hda_codec         118784  4 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_realtek
 wmi_bmof               16384  0
 libarc4                16384  2 cifs,mac80211
-intel_powerclamp       20480  0
-snd_hda_codec         118784  4 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_realtek
 snd_hwdep              16384  1 snd_hda_codec
+x86_pkg_temp_thermal    20480  0
+intel_powerclamp       20480  0
 snd_hda_core           77824  5 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek
+i915                 2109440  10
 iwlwifi               331776  1 iwlmvm
-sdhci_pci              53248  0
-i915                 2109440  26
 coretemp               16384  0
 snd_pcm               102400  4 snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_core
-cqhci                  24576  1 sdhci_pci
 ghash_clmulni_intel    16384  0
-sdhci                  61440  1 sdhci_pci
+sdhci_pci              53248  0
+aesni_intel           364544  5
 intel_gtt              20480  1 i915
 snd_timer              32768  2 snd_seq,snd_pcm
 deflate                16384  1
-aesni_intel           364544  7
 glue_helper            16384  1 aesni_intel
 i2c_algo_bit           16384  1 i915
-efi_pstore             16384  0
-snd                    77824  16 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_timer,snd_pcm,snd_rawmidi
 crypto_simd            16384  1 aesni_intel
+efi_pstore             16384  0
+drm_kms_helper        188416  1 i915
+cqhci                  24576  1 sdhci_pci
+snd                    77824  16 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_timer,snd_pcm,snd_rawmidi
+i2c_i801               28672  0
+cryptd                 20480  2 crypto_simd,ghash_clmulni_intel
 psmouse               151552  0
+pstore                 28672  1 efi_pstore
+sdhci                  61440  1 sdhci_pci
+syscopyarea            16384  1 drm_kms_helper
+r8169                  98304  0
 soundcore              16384  1 snd
 cfg80211              741376  3 iwlmvm,iwlwifi,mac80211
-pstore                 28672  1 efi_pstore
-mmc_core              143360  3 sdhci,cqhci,sdhci_pci
-cryptd                 20480  2 crypto_simd,ghash_clmulni_intel
-i2c_i801               28672  0
-drm_kms_helper        188416  1 i915
-r8169                  98304  0
-mei_me                 40960  0
 i2c_smbus              16384  1 i2c_i801
-syscopyarea            16384  1 drm_kms_helper
-sysfillrect            16384  1 drm_kms_helper
 xhci_pci               20480  0
-sysimgblt              16384  1 drm_kms_helper
-mei                    86016  1 mei_me
-fb_sys_fops            16384  1 drm_kms_helper
+mmc_core              143360  3 sdhci,cqhci,sdhci_pci
+sysfillrect            16384  1 drm_kms_helper
+mei_me                 40960  0
 xhci_hcd              217088  2 xhci_pci,xhci_plat_hcd
+sysimgblt              16384  1 drm_kms_helper
+fb_sys_fops            16384  1 drm_kms_helper
+mei                    86016  1 mei_me
 intel_pch_thermal      16384  0
 ideapad_laptop         24576  0
 wmi                    24576  2 wmi_bmof,ideapad_laptop
 ahci                   40960  2
 libahci                36864  1 ahci
-drm                   438272  22 drm_kms_helper,i915
+drm                   438272  8 drm_kms_helper,i915
 agpgart                40960  1 drm
 efivarfs               16384  1
 fuse                  122880  3

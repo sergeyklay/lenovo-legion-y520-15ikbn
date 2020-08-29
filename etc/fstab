@@ -15,9 +15,3 @@ UUID=30eb2ed7-4c5a-48eb-8381-a01c7b0adffa	/mnt/data		ext4		users,defaults,errors
 
 # /dev/sda2: 20G (PARTLABEL=samba)
 UUID=4bf01fc2-99ff-4d5e-b3d1-68b72a0d89ae	/mnt/samba		ext4		noatime,defaults,errors=remount-ro		0	0
-
-# uid=1000: egrep
-# gid=994:  sambashare
-//tower.local/Shared				/mnt/samba/tower/shared	cifs		noauto,uid=1000,gid=994,iocharset=utf8,vers=3.0,noperm	0	0
-//tower.local/Distrib				/mnt/samba/tower/distrib cifs		noauto,uid=1000,gid=994,iocharset=utf8,vers=3.0,noperm	0	0
-//tower.local/Gene				/mnt/samba/tower/gene	cifs		noauto,uid=1000,gid=994,iocharset=utf8,vers=3.0,noperm	0	0

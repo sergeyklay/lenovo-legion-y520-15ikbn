@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Poratge
+# Portage
 rsync -a --delete /etc/portage/package.use/ "$(pwd)/etc/portage/package.use/"
 cp /etc/portage/make.conf "$(pwd)/etc/portage/make.conf"
 cp /etc/portage/package.mask "$(pwd)/etc/portage/package.mask"
@@ -24,5 +24,8 @@ cp /etc/samba/smb.conf "$(pwd)/etc/samba/smb.conf"
 # Name Service Switch configuration
 cp /etc/nsswitch.conf "$(pwd)/etc/nsswitch.conf"
 
-#
+# avahi
+cp /etc/avahi/avahi-daemon.conf "$(pwd)/etc/avahi/avahi-daemon.conf"
+
+# genkernel
 cp /etc/genkernel.conf "$(pwd)/etc/genkernel.conf"

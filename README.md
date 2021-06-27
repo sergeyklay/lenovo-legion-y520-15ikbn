@@ -16,7 +16,7 @@ This repository holds the following configurations:
 - UEFI BIOS
 - GRUB2
 - Systemd
-- Gnome
+- Sway
 - Samba
 - Wayland
 

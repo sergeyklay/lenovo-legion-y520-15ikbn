@@ -26,8 +26,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 # GRUB_CMDLINE_LINUX="net.ifnames=0"
 #
 # Boot with systemd instead of sysvinit (openrc)
-# GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd"
-GRUB_CMDLINE_LINUX="rootfstype=ext4 init=/usr/lib/systemd/systemd resume=UUID=c29e14a5-c762-40d6-85da-22a4277f9a4a"
+GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd resume=UUID=c29e14a5-c762-40d6-85da-22a4277f9a4a"
 
 # Append parameters to the linux kernel command line for non-recovery entries
 #GRUB_CMDLINE_LINUX_DEFAULT=""
@@ -38,7 +37,6 @@ GRUB_CMDLINE_LINUX="rootfstype=ext4 init=/usr/lib/systemd/systemd resume=UUID=c2
 # The resolution used on graphical terminal.
 # Note that you can use only modes which your graphic card supports via VBE.
 # You can see them in real GRUB with the command `vbeinfo'.
-#GRUB_GFXMODE=640x480
 GRUB_GFXMODE=1920x1080x32,1280x1024,1024x768,auto
 
 # Set to 'text' to force the Linux kernel to boot in normal text
@@ -46,7 +44,6 @@ GRUB_GFXMODE=1920x1080x32,1280x1024,1024x768,auto
 # 'GRUB_GFXMODE', 'WIDTHxHEIGHT'['xDEPTH'] to set a particular
 # graphics mode, or a sequence of these separated by commas or
 # semicolons to try several modes in sequence.
-#GRUB_GFXPAYLOAD_LINUX=
 GRUB_GFXPAYLOAD_LINUX=keep
 
 # Path to theme spec txt file.

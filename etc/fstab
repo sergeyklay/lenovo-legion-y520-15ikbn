@@ -8,4 +8,9 @@ UUID=c29e14a5-c762-40d6-85da-22a4277f9a4a	none			swap		sw						0	0
 
 # /dev/nvme0n1p3: 460.7G (PARTLABEL=root)
 UUID=2daf45b5-3849-4131-8513-8afb5c169ee2	/			ext4		noatime						0	1
+# /dev/sda1: 212.9G (PARTLABEL=data)
+UUID=30eb2ed7-4c5a-48eb-8381-a01c7b0adffa	/mnt/data		ext4		users,defaults,errors=remount-ro		0	0
+
+# /dev/sda2: 20G (PARTLABEL=samba)
+UUID=4bf01fc2-99ff-4d5e-b3d1-68b72a0d89ae	/mnt/samba		ext4		noatime,defaults,errors=remount-ro		0	0
 

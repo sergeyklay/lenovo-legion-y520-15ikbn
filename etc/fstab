@@ -1,17 +1,16 @@
 # <file system>					<mount point>		<type>		<options>					<dump>	<pass>
 
-#/dev/nvme0n1p2: 130M (PARTLABEL=efi)
-UUID=5752-5875					/boot/efi		vfat		umask=0022,fmask=0022,dmask=0022		0	2
-/boot/efi/grub					/boot/grub		none		defaults,bind					0	0
+#/dev/nvme0n1p1: 256MM (PARTLABEL=efi)
+UUID=1B3F-1983					/boot/efi		vfat		umask=0022,fmask=0022,dmask=0022		0	2
 
-# /dev/nvme0n1p3: 16G (PARTLABEL=swap)
-UUID=eaca1c21-9315-4a4c-819d-4d0dbcdf65a7	none			swap		sw						0	0
+# /dev/nvme0n1p2: 16G (PARTLABEL=swap)
+UUID=c29e14a5-c762-40d6-85da-22a4277f9a4a	none			swap		sw						0	0
 
-# /dev/nvme0n1p4: 460.8G (PARTLABEL=root)
-UUID=6a484306-a66d-4d2f-8562-ec3135e9e5ff	/			ext4		noatime						0	1
-
+# /dev/nvme0n1p3: 460.7G (PARTLABEL=root)
+UUID=2daf45b5-3849-4131-8513-8afb5c169ee2	/			ext4		noatime						0	1
 # /dev/sda1: 212.9G (PARTLABEL=data)
 UUID=30eb2ed7-4c5a-48eb-8381-a01c7b0adffa	/mnt/data		ext4		users,defaults,errors=remount-ro		0	0
 
 # /dev/sda2: 20G (PARTLABEL=samba)
 UUID=4bf01fc2-99ff-4d5e-b3d1-68b72a0d89ae	/mnt/samba		ext4		noatime,defaults,errors=remount-ro		0	0
+

@@ -5,6 +5,7 @@ rsync -a --delete /etc/portage/package.use/ "$(pwd)/etc/portage/package.use/"
 cp /etc/portage/make.conf "$(pwd)/etc/portage/make.conf"
 cp /etc/portage/package.mask "$(pwd)/etc/portage/package.mask"
 cp /etc/portage/package.license "$(pwd)/etc/portage/package.license"
+cp /var/lib/portage/world var/lib/portage/world
 
 # Grub
 cp /etc/default/grub "$(pwd)/etc/default"

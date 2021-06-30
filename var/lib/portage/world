@@ -27,6 +27,7 @@ media-fonts/noto-emoji
 media-fonts/open-sans
 media-fonts/opendesktop-fonts
 media-fonts/roboto
+media-fonts/unifont
 net-fs/samba
 net-irc/weechat
 net-misc/dhcpcd

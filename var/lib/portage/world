@@ -2,6 +2,7 @@ app-admin/pass
 app-admin/sudo
 app-editors/emacs
 app-editors/vim
+app-eselect/eselect-repository
 app-laptop/laptop-mode-tools
 app-misc/colordiff
 app-misc/jq
@@ -14,7 +15,11 @@ app-text/hunspell
 dev-lang/go
 dev-util/desktop-file-utils
 dev-vcs/git
+gui-apps/grim
+gui-apps/mako
+gui-apps/slurp
 gui-apps/waybar
+gui-apps/wofi
 gui-wm/sway
 media-fonts/arphicfonts
 media-fonts/baekmuk-fonts
@@ -49,6 +54,4 @@ sys-process/htop
 www-client/elinks
 www-client/firefox
 x11-apps/xhost
-x11-misc/rofi
-x11-misc/rofi-calc
 x11-terms/alacritty

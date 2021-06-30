@@ -1,1 +1,1 @@
-net-wireless/bluez -cups
+net-wireless/bluez user-session -cups

@@ -1,0 +1,3 @@
+# required by gui-apps/mako-1.5::gentoo
+# required by gui-apps/mako (argument)
+>=sys-apps/dbus-1.12.20-r1 user-session

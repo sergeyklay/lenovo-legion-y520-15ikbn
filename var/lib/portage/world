@@ -21,12 +21,9 @@ gui-apps/slurp
 gui-apps/waybar
 gui-apps/wofi
 gui-wm/sway
-media-fonts/arphicfonts
-media-fonts/baekmuk-fonts
 media-fonts/fira-code
 media-fonts/fontawesome
 media-fonts/jetbrains-mono
-media-fonts/kochi-substitute
 media-fonts/noto
 media-fonts/noto-emoji
 media-fonts/open-sans

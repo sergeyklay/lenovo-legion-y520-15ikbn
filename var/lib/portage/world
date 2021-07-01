@@ -18,6 +18,7 @@ dev-vcs/git
 gui-apps/grim
 gui-apps/mako
 gui-apps/slurp
+gui-apps/swappy
 gui-apps/waybar
 gui-apps/wofi
 gui-wm/sway
@@ -30,9 +31,12 @@ media-fonts/open-sans
 media-fonts/opendesktop-fonts
 media-fonts/roboto
 media-fonts/unifont
+media-sound/alsa-utils
+media-sound/pulseaudio-ctl
 net-fs/samba
 net-irc/weechat
 net-misc/dhcpcd
+net-p2p/transmission
 net-wireless/bluez
 net-wireless/iw
 net-wireless/wpa_supplicant
@@ -51,4 +55,5 @@ sys-process/htop
 www-client/elinks
 www-client/firefox
 x11-apps/xhost
+x11-misc/xdg-user-dirs
 x11-terms/alacritty

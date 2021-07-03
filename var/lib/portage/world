@@ -36,6 +36,7 @@ media-fonts/unifont
 media-sound/alsa-utils
 media-sound/pulseaudio-ctl
 net-fs/samba
+net-im/telegram-desktop
 net-irc/weechat
 net-misc/dhcpcd
 net-p2p/transmission
@@ -60,3 +61,7 @@ x11-apps/xhost
 x11-libs/libnotify
 x11-misc/xdg-user-dirs
 x11-terms/alacritty
+x11-themes/arc-icon-theme
+x11-themes/arc-theme
+x11-themes/vanilla-dmz-aa-xcursors
+x11-themes/vanilla-dmz-xcursors

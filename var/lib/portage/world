@@ -48,6 +48,7 @@ sys-apps/lm-sensors
 sys-apps/pciutils
 sys-apps/pcmciautils
 sys-apps/ripgrep
+sys-auth/nss-mdns
 sys-boot/grub:2
 sys-firmware/intel-microcode
 sys-kernel/genkernel

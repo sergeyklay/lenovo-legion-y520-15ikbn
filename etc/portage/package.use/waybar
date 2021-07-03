@@ -1,4 +1,4 @@
-gui-apps/waybar network tray
+gui-apps/waybar network
 
 # required by dev-libs/libappindicator-12.10.1_p20200706::gentoo
 # required by gui-apps/waybar-0.9.7::gentoo[tray]

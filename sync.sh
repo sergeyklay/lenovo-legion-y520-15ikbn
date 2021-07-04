@@ -14,6 +14,9 @@ cp /var/lib/portage/world var/lib/portage/world
 # Grub
 cp /etc/default/grub "$(pwd)/etc/default"
 
+# Console
+cp /etc/vconsole.conf "$(pwd)/etc/vconsole.conf"
+
 # Kernel config
 cp "/usr/src/linux-$(uname -r)/.config" "$(pwd)/usr/src/linux/.config"
 

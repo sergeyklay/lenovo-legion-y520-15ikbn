@@ -32,13 +32,16 @@ media-fonts/noto-emoji
 media-fonts/open-sans
 media-fonts/opendesktop-fonts
 media-fonts/roboto
+media-fonts/terminus-font
 media-fonts/unifont
 media-sound/alsa-utils
 media-sound/pulseaudio-ctl
+media-video/mpv
 net-fs/samba
 net-im/telegram-desktop
 net-irc/weechat
 net-misc/dhcpcd
+net-misc/youtube-dl
 net-p2p/transmission
 net-wireless/bluez
 net-wireless/iw

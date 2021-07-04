@@ -1,4 +1,4 @@
-media-video/mpv -cdda -X -xv
+media-video/mpv -cdda -X -xv drm
 
 # required by media-video/celluloid-0.21::gentoo
 # required by media-video/celluloid (argument)

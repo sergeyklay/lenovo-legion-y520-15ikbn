@@ -62,7 +62,6 @@ sys-fs/exfatprogs
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
-sys-power/thermald
 sys-process/htop
 www-client/elinks
 www-client/firefox

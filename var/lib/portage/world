@@ -14,7 +14,9 @@ app-portage/gentoolkit
 app-shells/bash-completion
 app-text/hunspell
 dev-lang/go
+dev-util/ctags
 dev-util/desktop-file-utils
+dev-util/global
 dev-util/strace
 dev-vcs/git
 gui-apps/grim
@@ -47,6 +49,7 @@ net-p2p/transmission
 net-wireless/bluez
 net-wireless/iw
 net-wireless/wpa_supplicant
+sys-apps/fd
 sys-apps/keyutils
 sys-apps/lm-sensors
 sys-apps/pciutils

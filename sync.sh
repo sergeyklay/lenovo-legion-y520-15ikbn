@@ -6,10 +6,11 @@ rsync -a --delete /etc/portage/package.use/ "$(pwd)/etc/portage/package.use/"
 cp /etc/portage/make.conf "$(pwd)/etc/portage/make.conf"
 cp /etc/portage/package.mask "$(pwd)/etc/portage/package.mask"
 cp /etc/portage/package.license "$(pwd)/etc/portage/package.license"
-cp /etc/portage/package.mask "$(pwd)/etc/portage/package.mask"
+cp /etc/portage/package.unmask "$(pwd)/etc/portage/package.unmask"
+cp /etc/portage/package.accept_keywords "$(pwd)/etc/portage/package.accept_keywords"
 
 cp /etc/eselect/repository.conf "$(pwd)/etc/eselect/repository.conf"
-cp /var/lib/portage/world var/lib/portage/world
+cp /var/lib/portage/world "$(pwd)/var/lib/portage/world"
 
 # Grub
 cp /etc/default/grub "$(pwd)/etc/default"

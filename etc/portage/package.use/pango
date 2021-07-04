@@ -1,0 +1,7 @@
+x11-libs/pango -X
+
+# required by x11-libs/pango-1.48.7::gentoo
+# required by gui-apps/mako-9999::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.10.4 harfbuzz

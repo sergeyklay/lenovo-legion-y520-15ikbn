@@ -1,3 +1,5 @@
 # To install make from master branch
 # and use makoctl set <action>
 gui-apps/mako **
+
+dev-util/clion **

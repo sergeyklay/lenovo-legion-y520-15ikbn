@@ -61,6 +61,7 @@ sys-firmware/intel-microcode
 sys-fs/exfatprogs
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
+sys-kernel/gentoo-sources:5.13.0
 sys-kernel/linux-firmware
 sys-process/htop
 www-client/elinks

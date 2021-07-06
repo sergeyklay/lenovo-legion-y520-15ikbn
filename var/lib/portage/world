@@ -14,6 +14,7 @@ app-portage/gentoolkit
 app-shells/bash-completion
 app-text/hunspell
 dev-lang/go
+dev-python/pip
 dev-util/clion
 dev-util/ctags
 dev-util/desktop-file-utils
@@ -62,6 +63,7 @@ sys-devel/gdb
 sys-firmware/intel-microcode
 sys-fs/exfatprogs
 sys-fs/fuse
+sys-fs/fuse:0
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
 sys-kernel/gentoo-sources:5.13.0

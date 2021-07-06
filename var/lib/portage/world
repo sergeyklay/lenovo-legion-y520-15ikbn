@@ -1,3 +1,4 @@
+app-admin/eclean-kernel
 app-admin/pass
 app-admin/sudo
 app-editors/emacs
@@ -66,7 +67,6 @@ sys-fs/fuse
 sys-fs/fuse:0
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:5.13.0
 sys-kernel/linux-firmware
 sys-process/htop
 www-client/elinks

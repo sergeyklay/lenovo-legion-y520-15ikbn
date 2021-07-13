@@ -22,6 +22,7 @@ dev-util/desktop-file-utils
 dev-util/global
 dev-util/strace
 dev-vcs/git
+gnome-base/gnome-keyring
 gui-apps/grim
 gui-apps/mako
 gui-apps/slurp
@@ -31,6 +32,7 @@ gui-apps/wev
 gui-apps/wofi
 gui-wm/sway
 media-fonts/fira-code
+media-fonts/fira-sans
 media-fonts/fontawesome
 media-fonts/jetbrains-mono
 media-fonts/noto
@@ -52,6 +54,7 @@ net-p2p/transmission
 net-wireless/bluez
 net-wireless/iw
 net-wireless/wpa_supplicant
+sys-apps/cpuid
 sys-apps/fd
 sys-apps/keyutils
 sys-apps/lm-sensors
@@ -74,6 +77,7 @@ www-client/firefox
 x11-apps/xhost
 x11-libs/libnotify
 x11-misc/xdg-user-dirs
+x11-misc/xsensors
 x11-terms/alacritty
 x11-themes/arc-icon-theme
 x11-themes/arc-theme

@@ -1,0 +1,5 @@
+media-gfx/graphviz -qt5 -X postscript
+
+# required by media-gfx/graphviz-2.47.3::gentoo
+# required by media-gfx/graphviz (argument)
+>=media-libs/gd-2.3.2 fontconfig

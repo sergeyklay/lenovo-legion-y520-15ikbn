@@ -1,6 +1,7 @@
 app-admin/eclean-kernel
 app-admin/pass
 app-admin/sudo
+app-doc/doxygen
 app-editors/emacs
 app-editors/vim
 app-eselect/eselect-repository
@@ -42,6 +43,7 @@ media-fonts/opendesktop-fonts
 media-fonts/roboto
 media-fonts/terminus-font
 media-fonts/unifont
+media-gfx/graphviz
 media-sound/alsa-utils
 media-sound/pulseaudio-ctl
 media-video/mpv

@@ -4,6 +4,8 @@ app-admin/sudo
 app-doc/doxygen
 app-editors/emacs
 app-editors/vim
+app-emulation/docker
+app-emulation/docker-cli
 app-eselect/eselect-repository
 app-laptop/laptop-mode-tools
 app-misc/colordiff
@@ -65,6 +67,7 @@ sys-apps/pcmciautils
 sys-apps/ripgrep
 sys-auth/nss-mdns
 sys-boot/grub:2
+sys-devel/gcc:8.5.0
 sys-devel/gdb
 sys-firmware/intel-microcode
 sys-fs/exfatprogs

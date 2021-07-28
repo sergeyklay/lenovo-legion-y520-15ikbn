@@ -19,7 +19,6 @@ app-shells/bash-completion
 app-text/hunspell
 dev-lang/go
 dev-python/pip
-dev-util/clion
 dev-util/cppcheck
 dev-util/ctags
 dev-util/desktop-file-utils

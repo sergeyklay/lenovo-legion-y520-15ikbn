@@ -47,7 +47,7 @@ do_mount()
         OPTS+=",user,relatime,uid=${MOUNT_UID},gid=${MOUNT_GID}"
 	OPTS+=",iocharset=utf8"
     elif [[ ${ID_FS_TYPE} == "ext4" ]]; then
-        OPTS+=",defaults,errors=remount-ro"
+        OPTS+=",defaults,exec,suid,errors=remount-ro"
     fi
 
     if ! /bin/mount -o ${OPTS} ${DEVICE} ${MOUNT_POINT}; then

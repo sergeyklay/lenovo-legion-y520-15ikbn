@@ -1,0 +1,15 @@
+app-emulation/virt-manager -policykit
+
+# required by app-emulation/virt-manager-3.2.0::gentoo[gtk]
+# required by app-emulation/virt-manager (argument)
+>=net-misc/spice-gtk-0.39 usbredir
+
+# required by app-emulation/libvirt-7.5.0::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-3.2.0::gentoo
+# required by app-emulation/virt-manager (argument)
+>=net-dns/dnsmasq-2.85 script
+
+# required by app-crypt/swtpm-0.6.0-r1::gentoo[gnutls]
+# required by app-crypt/swtpm (argument)
+>=net-libs/gnutls-3.7.2 pkcs11 tools

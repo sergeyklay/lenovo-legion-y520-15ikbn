@@ -1,11 +1,14 @@
 app-admin/eclean-kernel
 app-admin/pass
 app-admin/sudo
+app-crypt/swtpm
 app-doc/doxygen
 app-editors/emacs
 app-editors/vim
 app-emulation/docker
 app-emulation/docker-cli
+app-emulation/qemu
+app-emulation/virt-manager
 app-eselect/eselect-repository
 app-laptop/laptop-mode-tools
 app-misc/colordiff
@@ -17,6 +20,10 @@ app-portage/cfg-update
 app-portage/gentoolkit
 app-shells/bash-completion
 app-text/hunspell
+app-text/zathura
+app-text/zathura-djvu
+app-text/zathura-pdf-poppler
+app-text/zathura-ps
 dev-lang/go
 dev-python/pip
 dev-util/cppcheck
@@ -24,6 +31,7 @@ dev-util/ctags
 dev-util/desktop-file-utils
 dev-util/global
 dev-util/strace
+dev-util/valgrind
 dev-vcs/git
 gnome-base/gnome-keyring
 gui-apps/grim

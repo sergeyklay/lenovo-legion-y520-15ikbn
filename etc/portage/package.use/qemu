@@ -1,1 +1,4 @@
-app-emulation/qemu fuse ssh spice usbredir QEMU_SOFTMMU_TARGETS: arm x86_64 QEMU_USER_TARGETS: x86_64
+*/* QEMU_SOFTMMU_TARGETS: i386 x86_64 aarch64
+*/* QEMU_USER_TARGETS: i386 x86_64 aarch64
+
+app-emulation/qemu spice usb usbredir vte

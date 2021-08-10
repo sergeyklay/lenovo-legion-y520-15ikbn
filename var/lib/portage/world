@@ -20,6 +20,7 @@ app-portage/cfg-update
 app-portage/gentoolkit
 app-shells/bash-completion
 app-text/hunspell
+app-text/sloccount
 app-text/zathura
 app-text/zathura-djvu
 app-text/zathura-pdf-poppler

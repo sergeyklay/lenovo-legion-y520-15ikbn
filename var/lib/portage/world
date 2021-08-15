@@ -31,6 +31,7 @@ dev-util/cppcheck
 dev-util/ctags
 dev-util/desktop-file-utils
 dev-util/global
+dev-util/ninja
 dev-util/strace
 dev-util/valgrind
 dev-vcs/git

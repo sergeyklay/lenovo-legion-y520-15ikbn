@@ -1,1 +1,0 @@
->=dev-libs/libfmt-8.0.0-r1

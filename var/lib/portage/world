@@ -87,6 +87,7 @@ sys-kernel/genkernel
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-process/htop
+sys-process/lsof
 www-client/elinks
 www-client/firefox
 x11-apps/xhost

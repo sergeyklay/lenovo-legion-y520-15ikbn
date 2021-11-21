@@ -12,6 +12,9 @@ cp /etc/portage/package.accept_keywords "$(pwd)/etc/portage/package.accept_keywo
 cp /etc/eselect/repository.conf "$(pwd)/etc/eselect/repository.conf"
 cp /var/lib/portage/world "$(pwd)/var/lib/portage/world"
 
+# cfg
+cp /etc/cfg-update.conf "$(pwd)/etc/cfg-update.conf"
+
 # Grub
 cp /etc/default/grub "$(pwd)/etc/default"
 

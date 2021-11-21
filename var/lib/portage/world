@@ -62,6 +62,7 @@ media-video/mpv
 net-fs/samba
 net-im/telegram-desktop
 net-irc/weechat
+net-libs/mbedtls
 net-misc/dhcpcd
 net-misc/youtube-dl
 net-p2p/transmission

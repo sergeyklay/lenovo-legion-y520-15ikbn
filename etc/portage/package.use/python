@@ -1,2 +1,2 @@
 # disable py2.7 without altering the other flags
-*/* PYTHON_TARGETS: -python2_7
+*/* PYTHON_TARGETS: python3_10

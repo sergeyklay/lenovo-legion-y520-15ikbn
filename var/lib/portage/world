@@ -1,12 +1,12 @@
 app-admin/eclean-kernel
 app-admin/pass
 app-admin/sudo
+app-containers/docker
+app-containers/docker-cli
 app-crypt/swtpm
 app-doc/doxygen
 app-editors/emacs
 app-editors/vim
-app-emulation/docker
-app-emulation/docker-cli
 app-emulation/qemu
 app-emulation/virt-manager
 app-eselect/eselect-repository

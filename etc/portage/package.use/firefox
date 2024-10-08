@@ -1,5 +1,5 @@
-www-client/firefox l10n_en-GB l10n_ru
+www-client/firefox l10n_en-GB l10n_ru l10n_pl
 
-# required by www-client/firefox-89.0.2::gentoo[system-libvpx]
+# required by www-client/firefox-131.0::gentoo[system-libvpx]
 # required by www-client/firefox (argument)
->=media-libs/libvpx-1.10.0 postproc
+>=media-libs/libvpx-1.14.1 postproc

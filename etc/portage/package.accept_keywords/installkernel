@@ -1,0 +1,3 @@
+sys-kernel/installkernel
+sys-boot/uefi-mkconfig
+app-emulation/virt-firmware

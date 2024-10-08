@@ -1,1 +1,1 @@
-app-editors/emacs m17n-lib mailutils source xft dynamic-loading -alsa
+app-editors/emacs m17n-lib mailutils source xft dynamic-loading sqlite ssl systemd tree-sitter jit json gui gtk -X -alsa

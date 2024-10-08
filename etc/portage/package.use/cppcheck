@@ -1,1 +1,1 @@
-dev-util/cppcheck -qt5
+dev-util/cppcheck -gui -qt6

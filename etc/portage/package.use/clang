@@ -1,1 +1,1 @@
-sys-devel/clang -llvm_targets_AMDGPU doc
+sys-devel/clang doc

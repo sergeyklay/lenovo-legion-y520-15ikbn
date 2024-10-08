@@ -1,54 +1,67 @@
 #!/bin/bash
 
+sync_or_copy() {
+  local src_path=$1
+  local dest_path=$2
+
+  if [ -d "$src_path" ]; then
+    rsync -a --delete "$src_path/" "$dest_path/"
+  elif [ -f "$src_path" ]; then
+    cp "$src_path" "$dest_path"
+  else
+    rm -rf "$dest_path"
+  fi
+}
+
 # Portage
-rsync -a --delete /etc/portage/package.use/ "$(pwd)/etc/portage/package.use/"
-rsync -a --delete /etc/portage/package.accept_keywords/ "$(pwd)/etc/portage/package.accept_keywords/"
-rsync -a --delete /etc/portage/package.mask/ "$(pwd)/etc/portage/package.mask/"
+PACKAGE_FILES=(
+  make.conf
+  package.use
+  package.accept_keywords
+  package.mask
+  package.unmask
+  package.license
+)
+for f in "${PACKAGE_FILES[@]}"; do
+  sync_or_copy "/etc/portage/$f" "$(pwd)/etc/portage/$f"
+done
 
-cp /etc/portage/make.conf "$(pwd)/etc/portage/make.conf"
-cp /etc/portage/package.license "$(pwd)/etc/portage/package.license"
 
-if [ -f /etc/portage/package.unmask ]; then
-  cp /etc/portage/package.unmask "$(pwd)/etc/portage/package.unmask"
-else
-  rm "$(pwd)/etc/portage/package.unmask"
-fi
-
-cp /etc/eselect/repository.conf "$(pwd)/etc/eselect/repository.conf"
-cp /var/lib/portage/world "$(pwd)/var/lib/portage/world"
+sync_or_copy /etc/eselect/repository.conf "$(pwd)/etc/eselect/repository.conf"
+sync_or_copy /var/lib/portage/world "$(pwd)/var/lib/portage/world"
 
 # cfg
-cp /etc/cfg-update.conf "$(pwd)/etc/cfg-update.conf"
+sync_or_copy /etc/cfg-update.conf "$(pwd)/etc/cfg-update.conf"
 
 # Grub
-cp /etc/default/grub "$(pwd)/etc/default"
+sync_or_copy /etc/default/grub "$(pwd)/etc/default"
 
 # Console
-cp /etc/vconsole.conf "$(pwd)/etc/vconsole.conf"
+sync_or_copy /etc/vconsole.conf "$(pwd)/etc/vconsole.conf"
 
 # Kernel config
-cp "/usr/src/linux-$(uname -r)/.config" "$(pwd)/usr/src/linux/.config"
+sync_or_copy "/usr/src/linux-$(uname -r)/.config" "$(pwd)/usr/src/linux/.config"
 
 # Kernel modules
 rsync -a --delete /etc/modules-load.d/ "$(pwd)/etc/modules-load.d/"
 
 # fstab
-cp /etc/fstab "$(pwd)/etc/fstab"
+sync_or_copy /etc/fstab "$(pwd)/etc/fstab"
 
 # Samba config
-cp /etc/samba/smb.conf "$(pwd)/etc/samba/smb.conf"
+sync_or_copy /etc/samba/smb.conf "$(pwd)/etc/samba/smb.conf"
 
 # Name Service Switch configuration
-cp /etc/nsswitch.conf "$(pwd)/etc/nsswitch.conf"
+sync_or_copy /etc/nsswitch.conf "$(pwd)/etc/nsswitch.conf"
 
 # avahi
-cp /etc/avahi/avahi-daemon.conf "$(pwd)/etc/avahi/avahi-daemon.conf"
+sync_or_copy /etc/avahi/avahi-daemon.conf "$(pwd)/etc/avahi/avahi-daemon.conf"
 
 # udev
 #
 # Run this first time:
 #   udevadm control --reload-rules
 #   systemctl daemon-reload
-cp /usr/local/bin/usb-mount.sh "$(pwd)/usr/local/bin/usb-mount.sh"
-cp /etc/systemd/system/usb-mount@.service "$(pwd)/etc/systemd/system/usb-mount@.service"
-cp /etc/udev/rules.d/99-local.rules "$(pwd)/etc/udev/rules.d/99-local.rules"
+sync_or_copy /usr/local/bin/usb-mount.sh "$(pwd)/usr/local/bin/usb-mount.sh"
+sync_or_copy /etc/systemd/system/usb-mount@.service "$(pwd)/etc/systemd/system/usb-mount@.service"
+sync_or_copy /etc/udev/rules.d/99-local.rules "$(pwd)/etc/udev/rules.d/99-local.rules"

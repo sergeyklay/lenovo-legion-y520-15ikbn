@@ -1,1 +1,1 @@
-net-dns/avahi -gtk -qt5 doc
+net-dns/avahi -gtk -qt5 -doc

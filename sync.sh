@@ -44,9 +44,6 @@ cp /etc/nsswitch.conf "$(pwd)/etc/nsswitch.conf"
 # avahi
 cp /etc/avahi/avahi-daemon.conf "$(pwd)/etc/avahi/avahi-daemon.conf"
 
-# genkernel
-cp /etc/genkernel.conf "$(pwd)/etc/genkernel.conf"
-
 # udev
 #
 # Run this first time:

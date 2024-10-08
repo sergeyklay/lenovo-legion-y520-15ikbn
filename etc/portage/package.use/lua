@@ -1,2 +1,2 @@
-# disable lua5-1 and lua5-2 without altering the other flags
-*/* LUA_TARGETS: -lua5-1 -lua5-2
+# disable lua5-1, lua5-2 and lua5-3 without altering the other flags
+*/* LUA_TARGETS: -lua5-1 -lua5-2 -lua5-3

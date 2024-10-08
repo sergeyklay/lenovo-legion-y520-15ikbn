@@ -26,7 +26,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 # GRUB_CMDLINE_LINUX="net.ifnames=0"
 #
 # Boot with systemd instead of sysvinit (openrc)
-GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd resume=UUID=c29e14a5-c762-40d6-85da-22a4277f9a4a"
+GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd resume=UUID=e1a4240c-fa4d-4033-814a-4e02f88b85ae"
 
 # Append parameters to the linux kernel command line for non-recovery entries
 #GRUB_CMDLINE_LINUX_DEFAULT=""
@@ -34,9 +34,9 @@ GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd resume=UUID=c29e14a5-c762-40d6
 # Uncomment to disable graphical terminal (grub-pc only)
 #GRUB_TERMINAL=console
 
-# The resolution used on graphical terminal.
-# Note that you can use only modes which your graphic card supports via VBE.
-# You can see them in real GRUB with the command `vbeinfo'.
+# Resolution used on graphical terminal.
+# The list of valid modes may be obtained using the 'vbeinfo' (PC BIOS) or
+# 'videoinfo' (EFI) command from a GRUB boot prompt.
 GRUB_GFXMODE=1920x1080x32,1280x1024,1024x768,auto
 
 # Set to 'text' to force the Linux kernel to boot in normal text
@@ -63,6 +63,9 @@ GRUB_DISABLE_OS_PROBER=true
 
 # Uncomment if you don't want GRUB to pass "root=UUID=xxx" parameter to kernel
 #GRUB_DISABLE_LINUX_UUID=true
+
+# Comment if you don't want GRUB to pass "root=PARTUUID=xxx" parameter to kernel
+GRUB_DISABLE_LINUX_PARTUUID=false
 
 # Uncomment to disable generation of recovery mode menu entries
 #GRUB_DISABLE_RECOVERY=true

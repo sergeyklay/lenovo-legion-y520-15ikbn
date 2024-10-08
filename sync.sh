@@ -7,7 +7,12 @@ rsync -a --delete /etc/portage/package.mask/ "$(pwd)/etc/portage/package.mask/"
 
 cp /etc/portage/make.conf "$(pwd)/etc/portage/make.conf"
 cp /etc/portage/package.license "$(pwd)/etc/portage/package.license"
-cp /etc/portage/package.unmask "$(pwd)/etc/portage/package.unmask"
+
+if [ -f /etc/portage/package.unmask ]; then
+  cp /etc/portage/package.unmask "$(pwd)/etc/portage/package.unmask"
+else
+  rm "$(pwd)/etc/portage/package.unmask"
+fi
 
 cp /etc/eselect/repository.conf "$(pwd)/etc/eselect/repository.conf"
 cp /var/lib/portage/world "$(pwd)/var/lib/portage/world"

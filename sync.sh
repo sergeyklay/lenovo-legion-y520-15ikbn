@@ -56,3 +56,6 @@ sync_or_copy /etc/nsswitch.conf "$(pwd)/etc/nsswitch.conf"
 
 # avahi
 sync_or_copy /etc/avahi/avahi-daemon.conf "$(pwd)/etc/avahi/avahi-daemon.conf"
+
+# font config
+sync_or_copy /etc/fonts/local.conf "$(pwd)/etc/fonts/local.conf"

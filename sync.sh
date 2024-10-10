@@ -56,12 +56,3 @@ sync_or_copy /etc/nsswitch.conf "$(pwd)/etc/nsswitch.conf"
 
 # avahi
 sync_or_copy /etc/avahi/avahi-daemon.conf "$(pwd)/etc/avahi/avahi-daemon.conf"
-
-# udev
-#
-# Run this first time:
-#   udevadm control --reload-rules
-#   systemctl daemon-reload
-sync_or_copy /usr/local/bin/usb-mount.sh "$(pwd)/usr/local/bin/usb-mount.sh"
-sync_or_copy /etc/systemd/system/usb-mount@.service "$(pwd)/etc/systemd/system/usb-mount@.service"
-sync_or_copy /etc/udev/rules.d/99-local.rules "$(pwd)/etc/udev/rules.d/99-local.rules"

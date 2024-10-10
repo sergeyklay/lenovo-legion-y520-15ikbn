@@ -1,1 +1,0 @@
-net-irc/weechat -guile -php -tcl -lua -ruby -fifo -xfer

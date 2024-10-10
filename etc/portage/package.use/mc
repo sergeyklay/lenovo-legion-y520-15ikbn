@@ -1,1 +1,1 @@
-app-misc/mc -X -slang sftp samba xdg
+app-misc/mc -X -slang sftp xdg

@@ -17,7 +17,6 @@ This repository holds the following configurations:
 - GRUB2
 - Systemd
 - Sway (I hold its configuration in a [[https://github.com/sergeyklay/dotfiles][dedicated git repo]])
-- Samba
 - Wayland
 
 ** Logs

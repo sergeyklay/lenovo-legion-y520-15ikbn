@@ -1,5 +1,1 @@
-media-video/mpv -cdda -X -xv drm
-
-# required by media-video/celluloid-0.21::gentoo
-# required by media-video/celluloid (argument)
->=media-video/mpv-0.33.1-r1 libmpv
+media-video/mpv -cdda -xv -X -opengl drm pipewire openal

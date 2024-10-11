@@ -59,3 +59,6 @@ sync_or_copy /etc/avahi/avahi-daemon.conf "$(pwd)/etc/avahi/avahi-daemon.conf"
 
 # font config
 sync_or_copy /etc/fonts/local.conf "$(pwd)/etc/fonts/local.conf"
+
+# pipewire
+sync_or_copy /etc/pipewire/pipewire.conf "$(pwd)/etc/pipewire/pipewire.conf"

@@ -1,1 +1,1 @@
-media-libs/openal -qt5
+media-libs/openal -qt5 pipewire

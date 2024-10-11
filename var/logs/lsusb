@@ -1,24 +1,24 @@
 
-Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 Device Descriptor:
   bLength                18
   bDescriptorType         1
-  bcdUSB               3.00
+  bcdUSB               2.00
   bDeviceClass            9 Hub
-  bDeviceSubClass         0 
-  bDeviceProtocol         3 
-  bMaxPacketSize0         9
+  bDeviceSubClass         0 [unknown]
+  bDeviceProtocol         1 Single TT
+  bMaxPacketSize0        64
   idVendor           0x1d6b Linux Foundation
-  idProduct          0x0003 3.0 root hub
-  bcdDevice            5.08
-  iManufacturer           3 Linux 5.8.5-gentoo xhci-hcd
+  idProduct          0x0002 2.0 root hub
+  bcdDevice            6.11
+  iManufacturer           3 Linux 6.11.3-gentoo xhci-hcd
   iProduct                2 xHCI Host Controller
   iSerial                 1 0000:00:14.0
   bNumConfigurations      1
   Configuration Descriptor:
     bLength                 9
     bDescriptorType         2
-    wTotalLength       0x001f
+    wTotalLength       0x0019
     bNumInterfaces          1
     bConfigurationValue     1
     iConfiguration          0 
@@ -33,7 +33,7 @@ Device Descriptor:
       bAlternateSetting       0
       bNumEndpoints           1
       bInterfaceClass         9 Hub
-      bInterfaceSubClass      0 
+      bInterfaceSubClass      0 [unknown]
       bInterfaceProtocol      0 Full speed (or root) hub
       iInterface              0 
       Endpoint Descriptor:
@@ -46,59 +46,49 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x0004  1x 4 bytes
         bInterval              12
-        bMaxBurst               0
 Hub Descriptor:
-  bLength              12
-  bDescriptorType      42
-  nNbrPorts             8
+  bLength              13
+  bDescriptorType      41
+  nNbrPorts            16
   wHubCharacteristic 0x000a
     No power switching (usb 1.0)
     Per-port overcurrent protection
+    TT think time 8 FS bits
   bPwrOn2PwrGood       10 * 2 milli seconds
   bHubContrCurrent      0 milli Ampere
-  bHubDecLat          0.0 micro seconds
-  wHubDelay             0 nano seconds
-  DeviceRemovable    0x00 0x00
+  DeviceRemovable    0x40 0x08 0x00
+  PortPwrCtrlMask    0xff 0xff 0xff
  Hub Port Status:
-   Port 1: 0000.02a0 5Gbps power Rx.Detect
-   Port 2: 0000.02a0 5Gbps power Rx.Detect
-   Port 3: 0000.02a0 5Gbps power Rx.Detect
-   Port 4: 0000.02a0 5Gbps power Rx.Detect
-   Port 5: 0000.02a0 5Gbps power Rx.Detect
-   Port 6: 0000.02a0 5Gbps power Rx.Detect
-   Port 7: 0000.02a0 5Gbps power Rx.Detect
-   Port 8: 0000.02a0 5Gbps power Rx.Detect
-Binary Object Store Descriptor:
-  bLength                 5
-  bDescriptorType        15
-  wTotalLength       0x000f
-  bNumDeviceCaps          1
-  SuperSpeed USB Device Capability:
-    bLength                10
-    bDescriptorType        16
-    bDevCapabilityType      3
-    bmAttributes         0x02
-      Latency Tolerance Messages (LTM) Supported
-    wSpeedsSupported   0x0008
-      Device can operate at SuperSpeed (5Gbps)
-    bFunctionalitySupport   3
-      Lowest fully-functional device speed is SuperSpeed (5Gbps)
-    bU1DevExitLat          10 micro seconds
-    bU2DevExitLat         512 micro seconds
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+   Port 3: 0000.0100 power
+   Port 4: 0000.0100 power
+   Port 5: 0000.0100 power
+   Port 6: 0000.0503 highspeed power enable connect
+   Port 7: 0000.0100 power
+   Port 8: 0000.0100 power
+   Port 9: 0000.0100 power
+   Port 10: 0000.0100 power
+   Port 11: 0000.0103 power enable connect
+   Port 12: 0000.0100 power
+   Port 13: 0000.0100 power
+   Port 14: 0000.0100 power
+   Port 15: 0000.0100 power
+   Port 16: 0000.0100 power
 Device Status:     0x0001
   Self Powered
 
-Bus 001 Device 002: ID 04f2:b57e Chicony Electronics Co., Ltd EasyCamera
+Bus 001 Device 003: ID 04f2:b57e Chicony Electronics Co., Ltd EasyCamera
 Device Descriptor:
   bLength                18
   bDescriptorType         1
   bcdUSB               2.00
   bDeviceClass          239 Miscellaneous Device
-  bDeviceSubClass         2 
+  bDeviceSubClass         2 [unknown]
   bDeviceProtocol         1 Interface Association
   bMaxPacketSize0        64
   idVendor           0x04f2 Chicony Electronics Co., Ltd
-  idProduct          0xb57e 
+  idProduct          0xb57e EasyCamera
   bcdDevice           87.40
   iManufacturer           3 Chicony Electronics Co.,Ltd.
   iProduct                1 EasyCamera
@@ -194,8 +184,8 @@ Device Descriptor:
         bDescriptorSubtype      6 (EXTENSION_UNIT)
         bUnitID                 4
         guidExtensionCode         {1229a78c-47b4-4094-b0ce-db07386fb938}
-        bNumControl             2
-        bNrPins                 1
+        bNumControls            2
+        bNrInPins               1
         baSourceID( 0)          2
         bControlSize            2
         bmControls( 0)       0x00
@@ -227,7 +217,7 @@ Device Descriptor:
         bDescriptorSubtype                  1 (INPUT_HEADER)
         bNumFormats                         3
         wTotalLength                   0x02ce
-        bEndPointAddress                  129
+        bEndpointAddress                 0x81  EP 1 IN
         bmInfo                              0
         bTerminalLink                       3
         bStillCaptureMethod                 2
@@ -348,7 +338,7 @@ Device Descriptor:
         bLength                            10
         bDescriptorType                    36
         bDescriptorSubtype                  3 (STILL_IMAGE_FRAME)
-        bEndpointAddress                    0
+        bEndpointAddress                 0x00  EP 0 OUT
         bNumImageSizePatterns               1
         wWidth( 0)                       1280
         wHeight( 0)                       720
@@ -471,7 +461,7 @@ Device Descriptor:
         bLength                            10
         bDescriptorType                    36
         bDescriptorSubtype                  3 (STILL_IMAGE_FRAME)
-        bEndpointAddress                    0
+        bEndpointAddress                 0x00  EP 0 OUT
         bNumImageSizePatterns               1
         wWidth( 0)                       1280
         wHeight( 0)                       720
@@ -515,7 +505,7 @@ Device Descriptor:
         bLength                            10
         bDescriptorType                    36
         bDescriptorSubtype                  3 (STILL_IMAGE_FRAME)
-        bEndpointAddress                    0
+        bEndpointAddress                 0x00  EP 0 OUT
         bNumImageSizePatterns               1
         wWidth( 0)                       1280
         wHeight( 0)                       720
@@ -672,14 +662,14 @@ Device Qualifier (for other device speed):
   bDescriptorType         6
   bcdUSB               2.00
   bDeviceClass          239 Miscellaneous Device
-  bDeviceSubClass         2 
+  bDeviceSubClass         2 [unknown]
   bDeviceProtocol         1 Interface Association
   bMaxPacketSize0        64
   bNumConfigurations      1
 Device Status:     0x0000
   (Bus Powered)
 
-Bus 001 Device 003: ID 8087:0a2b Intel Corp. Bluetooth wireless interface
+Bus 001 Device 004: ID 8087:0a2b Intel Corp. Bluetooth wireless interface
 Device Descriptor:
   bLength                18
   bDescriptorType         1
@@ -929,26 +919,26 @@ Device Descriptor:
 Device Status:     0x0001
   Self Powered
 
-Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 Device Descriptor:
   bLength                18
   bDescriptorType         1
-  bcdUSB               2.00
+  bcdUSB               3.00
   bDeviceClass            9 Hub
-  bDeviceSubClass         0 
-  bDeviceProtocol         1 Single TT
-  bMaxPacketSize0        64
+  bDeviceSubClass         0 [unknown]
+  bDeviceProtocol         3 
+  bMaxPacketSize0         9
   idVendor           0x1d6b Linux Foundation
-  idProduct          0x0002 2.0 root hub
-  bcdDevice            5.08
-  iManufacturer           3 Linux 5.8.5-gentoo xhci-hcd
+  idProduct          0x0003 3.0 root hub
+  bcdDevice            6.11
+  iManufacturer           3 Linux 6.11.3-gentoo xhci-hcd
   iProduct                2 xHCI Host Controller
   iSerial                 1 0000:00:14.0
   bNumConfigurations      1
   Configuration Descriptor:
     bLength                 9
     bDescriptorType         2
-    wTotalLength       0x0019
+    wTotalLength       0x001f
     bNumInterfaces          1
     bConfigurationValue     1
     iConfiguration          0 
@@ -963,7 +953,7 @@ Device Descriptor:
       bAlternateSetting       0
       bNumEndpoints           1
       bInterfaceClass         9 Hub
-      bInterfaceSubClass      0 
+      bInterfaceSubClass      0 [unknown]
       bInterfaceProtocol      0 Full speed (or root) hub
       iInterface              0 
       Endpoint Descriptor:
@@ -976,34 +966,44 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x0004  1x 4 bytes
         bInterval              12
+        bMaxBurst               0
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength       0x000f
+  bNumDeviceCaps          1
+  SuperSpeed USB Device Capability:
+    bLength                10
+    bDescriptorType        16
+    bDevCapabilityType      3
+    bmAttributes         0x02
+      Latency Tolerance Messages (LTM) Supported
+    wSpeedsSupported   0x0008
+      Device can operate at SuperSpeed (5Gbps)
+    bFunctionalitySupport   1
+      Lowest fully-functional device speed is Full Speed (12Mbps)
+    bU1DevExitLat          10 micro seconds
+    bU2DevExitLat         512 micro seconds
 Hub Descriptor:
-  bLength              13
-  bDescriptorType      41
-  nNbrPorts            16
+  bLength              12
+  bDescriptorType      42
+  nNbrPorts             8
   wHubCharacteristic 0x000a
     No power switching (usb 1.0)
     Per-port overcurrent protection
-    TT think time 8 FS bits
-  bPwrOn2PwrGood       10 * 2 milli seconds
+  bPwrOn2PwrGood       50 * 2 milli seconds
   bHubContrCurrent      0 milli Ampere
-  DeviceRemovable    0x40 0x08 0x00
-  PortPwrCtrlMask    0xff 0xff 0xff
+  bHubDecLat          0.0 micro seconds
+  wHubDelay             0 nano seconds
+  DeviceRemovable    0x00 0x00
  Hub Port Status:
-   Port 1: 0000.0100 power
-   Port 2: 0000.0100 power
-   Port 3: 0000.0100 power
-   Port 4: 0000.0100 power
-   Port 5: 0000.0100 power
-   Port 6: 0000.0503 highspeed power enable connect
-   Port 7: 0000.0100 power
-   Port 8: 0000.0100 power
-   Port 9: 0000.0100 power
-   Port 10: 0000.0100 power
-   Port 11: 0000.0103 power enable connect
-   Port 12: 0000.0100 power
-   Port 13: 0000.0100 power
-   Port 14: 0000.0100 power
-   Port 15: 0000.0100 power
-   Port 16: 0000.0100 power
+   Port 1: 0000.02a0 5Gbps power Rx.Detect
+   Port 2: 0000.02a0 5Gbps power Rx.Detect
+   Port 3: 0000.02a0 5Gbps power Rx.Detect
+   Port 4: 0000.02a0 5Gbps power Rx.Detect
+   Port 5: 0000.02a0 5Gbps power Rx.Detect
+   Port 6: 0000.02a0 5Gbps power Rx.Detect
+   Port 7: 0000.02a0 5Gbps power Rx.Detect
+   Port 8: 0000.02a0 5Gbps power Rx.Detect
 Device Status:     0x0001
   Self Powered

@@ -9,5 +9,8 @@ UUID="e1a4240c-fa4d-4033-814a-4e02f88b85ae"	none		swap	sw					0	0
 # /dev/nvme0n1p3: 459.9G (PARTLABEL=root)
 UUID="2ae9dfd2-1cc4-4a3e-bcc1-7a0e9425aeb2"	/		xfs	defaults,noatime			0	1
 
-# /dev/sda1: 114.6G
-UUID="9883-1305"				/mnt/usb	vfat	noauto,rw,user				0	0
+# /dev/sda1: 114.6G (SanDisk Ultra Flair)
+UUID="9883-1305"				/mnt/usb1	vfat	noauto,rw,user				0	0
+
+# /dev/sda1: 114.6G (SanDisk Ultra Dual Drive)
+UUID="0E5F-5789"				/mnt/usb2	vfat	noauto,rw,user				0	0

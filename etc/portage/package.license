@@ -1,2 +1,3 @@
 sys-kernel/linux-firmware linux-fw-redistributable no-source-code
 sys-firmware/intel-microcode intel-ucode
+net-im/zoom all-rights-reserved

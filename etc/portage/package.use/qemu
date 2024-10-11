@@ -1,4 +1,4 @@
 */* QEMU_SOFTMMU_TARGETS: i386 x86_64 aarch64
 */* QEMU_USER_TARGETS: i386 x86_64 aarch64
 
-app-emulation/qemu spice usb usbredir vte
+app-emulation/qemu gtk spice usb usbredir ncurses pipewire

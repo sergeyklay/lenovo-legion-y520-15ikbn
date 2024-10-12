@@ -1,1 +1,2 @@
 app-office/libreoffice -ldap pdfimport
+app-office/libreoffice-l10n l10n_en l10n_pl l10n_ru

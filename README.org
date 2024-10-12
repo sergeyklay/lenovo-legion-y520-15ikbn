@@ -25,6 +25,7 @@ There are some logs in the ~var/logs/~ directory I keep for historical reasons
 and debugging purposes:
 
 - [[./var/logs/dmesg][dmesg]] - The Kernel ring buffer
+- [[./var/logs/libinput][libinput]] - List all input devices with their default configuration options
 - [[./var/logs/lsmod][lsmod]] - The status of loaded modules
 - [[./var/logs/lspci][lspci]] - List of all PCI devices
 - [[./var/logs/lsusb][lsusb]] - List of USB devices

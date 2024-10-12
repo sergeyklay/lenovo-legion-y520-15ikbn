@@ -28,6 +28,7 @@ done
 
 
 sync_or_copy /etc/eselect/repository.conf "$(pwd)/etc/eselect/repository.conf"
+sync_or_copy /etc/portage/repos.conf "$(pwd)/etc/portage/repos.conf"
 sync_or_copy /var/lib/portage/world "$(pwd)/var/lib/portage/world"
 
 # cfg

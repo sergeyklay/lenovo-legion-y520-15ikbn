@@ -2,6 +2,7 @@ app-admin/eclean-kernel
 app-admin/pass
 app-admin/sudo
 app-crypt/pinentry
+app-crypt/yubikey-manager
 app-editors/emacs
 app-editors/nano
 app-emulation/qemu
@@ -90,6 +91,7 @@ sys-apps/usbutils
 sys-apps/xdg-desktop-portal-gtk
 sys-auth/nss-mdns
 sys-auth/rtkit
+sys-auth/yubikey-personalization-gui
 sys-block/io-scheduler-udev-rules
 sys-boot/grub
 sys-devel/clang

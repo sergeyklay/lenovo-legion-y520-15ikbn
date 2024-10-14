@@ -63,3 +63,6 @@ sync_or_copy /etc/fonts/local.conf "$(pwd)/etc/fonts/local.conf"
 
 # pipewire
 sync_or_copy /etc/pipewire/pipewire.conf "$(pwd)/etc/pipewire/pipewire.conf"
+
+# pam
+sync_or_copy /etc/pam.d/login "$(pwd)/etc/pam.d/login"

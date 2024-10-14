@@ -16,8 +16,9 @@ This repository holds the following configurations:
 - UEFI BIOS
 - GRUB2
 - Systemd
-- Sway (I hold its configuration in a [[https://github.com/sergeyklay/dotfiles][dedicated git repo]])
 - Wayland
+- Sway (I hold its configuration in a [[https://github.com/sergeyklay/dotfiles][dedicated git repo]])
+- Pipewire
 
 ** Logs
 

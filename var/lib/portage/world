@@ -14,6 +14,7 @@ app-misc/colordiff
 app-misc/evtest
 app-misc/grc
 app-misc/jq
+app-misc/khard
 app-misc/mc
 app-misc/neofetch
 app-misc/tmux
@@ -31,12 +32,15 @@ dev-debug/gdb
 dev-debug/strace
 dev-debug/valgrind
 dev-lang/go
+dev-python/keyring
 dev-python/pip
+dev-python/vdirsyncer
 dev-util/cppcheck
 dev-util/ctags
 dev-util/desktop-file-utils
 dev-util/global
 dev-vcs/git
+gnome-base/gnome-keyring
 gui-apps/foot
 gui-apps/grim
 gui-apps/mako

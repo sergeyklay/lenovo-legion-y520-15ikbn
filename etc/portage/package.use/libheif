@@ -1,0 +1,2 @@
+# Enable support for rendering HEIF/HEIC for GNOME apps
+media-libs/libheif gdk-pixbuf

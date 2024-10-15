@@ -22,6 +22,8 @@ app-office/libreoffice
 app-portage/eix
 app-portage/gentoolkit
 app-shells/bash-completion
+app-shells/fzf
+app-text/calibre
 app-text/djview
 app-text/poppler
 app-text/tree

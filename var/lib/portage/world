@@ -85,6 +85,8 @@ net-misc/dhcpcd
 net-misc/networkmanager
 net-misc/yt-dlp
 net-p2p/transmission
+net-print/cups
+net-print/cups-meta
 net-wireless/iw
 net-wireless/wpa_supplicant
 sys-apps/cpuid

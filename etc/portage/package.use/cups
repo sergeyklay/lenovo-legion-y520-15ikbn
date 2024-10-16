@@ -1,0 +1,2 @@
+net-print/cups -usb zeroconf
+net-print/cups-meta zeroconf

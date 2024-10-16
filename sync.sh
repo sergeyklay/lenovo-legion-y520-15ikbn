@@ -66,3 +66,6 @@ sync_or_copy /etc/pipewire/pipewire.conf "$(pwd)/etc/pipewire/pipewire.conf"
 
 # pam
 sync_or_copy /etc/pam.d/login "$(pwd)/etc/pam.d/login"
+
+# CUPS
+sync_or_copy /etc/cups/cupsd.conf "$(pwd)/etc/cups/cupsd.conf"

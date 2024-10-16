@@ -56,7 +56,6 @@ gui-apps/wev::guru
 gui-apps/wofi
 gui-libs/xdg-desktop-portal-wlr
 gui-wm/sway
-lxde-base/lxinput
 media-fonts/dejavu
 media-fonts/droid
 media-fonts/fira-code
@@ -91,6 +90,7 @@ net-wireless/iw
 net-wireless/wpa_supplicant
 sys-apps/cpuid
 sys-apps/fd
+sys-apps/input-utils
 sys-apps/keyutils
 sys-apps/pciutils
 sys-apps/pcmciautils

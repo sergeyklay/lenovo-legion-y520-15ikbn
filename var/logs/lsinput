@@ -1,0 +1,81 @@
+/dev/input/event0
+   id   : 0000:0005, HOST, v0
+   phys : "PNP0C0D/button/input0"
+   name : "Lid Switch"
+   SW   : LID
+
+/dev/input/event1
+   id   : 0000:0001, HOST, v0
+   phys : "PNP0C0C/button/input0"
+   name : "Power Button"
+   KEY  : POWER WAKEUP
+
+/dev/input/event2
+   id   : 0000:0001, HOST, v0
+   phys : "LNXPWRBN/button/input0"
+   name : "Power Button"
+   KEY  : POWER WAKEUP
+
+/dev/input/event3
+   id   : 0000:0006, HOST, v0
+   phys : "LNXVIDEO/video/input0"
+   name : "Video Bus"
+   KEY  : [ 8 codes ]
+
+/dev/input/event4
+   id   : 0000:0006, HOST, v0
+   phys : "LNXVIDEO/video/input0"
+   name : "Video Bus"
+   KEY  : [ 8 codes ]
+
+/dev/input/event5
+   id   : 0001:0001, I8042, v43907
+   phys : "isa0060/serio0/input0"
+   name : "AT Translated Set 2 keyboard"
+   KEY  : [ 144 codes ]
+   MSC  : SCAN
+   LED  : NUML CAPSL SCROLLL
+
+/dev/input/event10
+   id   : 0002:000e, I8042, v0
+   phys : "isa0060/serio1/input0"
+   name : "ETPS/2 Elantech Touchpad"
+   KEY  : [ 7 codes ]
+   ABS  : [ 10 codes ]
+
+/dev/input/event12
+   id   : 0000:0000, HOST, v0
+   phys : "ideapad/input0"
+   name : "Ideapad extra buttons"
+   KEY  : [ 19 codes ]
+   MSC  : SCAN
+
+/dev/input/event13
+   id   : 0000:0000, (null), v0
+   phys : "ALSA"
+   name : "HDA Intel PCH Mic"
+   SW   : MICROPHONE_INSERT
+
+/dev/input/event14
+   id   : 0000:0000, (null), v0
+   phys : "ALSA"
+   name : "HDA Intel PCH Headphone"
+   SW   : HEADPHONE_INSERT
+
+/dev/input/event15
+   id   : 0000:0000, (null), v0
+   phys : "ALSA"
+   name : "HDA Intel PCH HDMI/DP,pcm=3"
+   SW   : LINEOUT_INSERT VIDEOOUT_INSERT
+
+/dev/input/event16
+   id   : 0000:0000, (null), v0
+   phys : "ALSA"
+   name : "HDA Intel PCH HDMI/DP,pcm=7"
+   SW   : LINEOUT_INSERT VIDEOOUT_INSERT
+
+/dev/input/event17
+   id   : 0000:0000, (null), v0
+   phys : "ALSA"
+   name : "HDA Intel PCH HDMI/DP,pcm=8"
+   SW   : LINEOUT_INSERT VIDEOOUT_INSERT

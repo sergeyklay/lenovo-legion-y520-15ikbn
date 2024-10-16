@@ -1,1 +1,1 @@
-media-libs/libv4l qt5 opengl udev -qt6
+media-libs/libv4l -qt5 opengl udev qt6

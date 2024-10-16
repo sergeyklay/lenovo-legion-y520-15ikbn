@@ -100,7 +100,6 @@ sys-auth/rtkit
 sys-auth/yubikey-personalization-gui
 sys-block/io-scheduler-udev-rules
 sys-boot/grub
-sys-devel/clang
 sys-firmware/intel-microcode
 sys-fs/dosfstools
 sys-fs/exfatprogs

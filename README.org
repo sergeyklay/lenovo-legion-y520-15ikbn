@@ -31,6 +31,7 @@ and debugging purposes:
 - [[./var/logs/lspci][lspci]] - List of all PCI devices
 - [[./var/logs/lsusb][lsusb]] - List of USB devices
 - [[./var/logs/lsinput][lsinput]] - List of all input devices returned by =lsinput -v=
+- [[./var/logs/i2cdetect][i2cdetect]] - List all available I2C busses returned by =i2cdetect -l=
 - [[./var/logs/rfkill][rfkill]] - List of all available wireless devices
 - [[./var/logs/aplay-l][aplay]] - List all soundcards and digital audio devices found by =aplay -l=
 

@@ -1,0 +1,6 @@
+i2c-0	i2c       	i915 gmbus dpc                  	I2C adapter
+i2c-1	i2c       	i915 gmbus dpb                  	I2C adapter
+i2c-2	i2c       	i915 gmbus dpd                  	I2C adapter
+i2c-3	i2c       	AUX A/DDI A/PHY A               	I2C adapter
+i2c-4	i2c       	AUX C/DDI C/PHY C               	I2C adapter
+i2c-5	smbus     	SMBus I801 adapter at 5040      	SMBus adapter

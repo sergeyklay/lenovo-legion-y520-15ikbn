@@ -90,6 +90,7 @@ net-wireless/iw
 net-wireless/wpa_supplicant
 sys-apps/cpuid
 sys-apps/fd
+sys-apps/i2c-tools
 sys-apps/input-utils
 sys-apps/keyutils
 sys-apps/pciutils

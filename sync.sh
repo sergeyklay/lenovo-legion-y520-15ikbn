@@ -26,7 +26,6 @@ for f in "${PACKAGE_FILES[@]}"; do
   sync_or_copy "/etc/portage/$f" "$(pwd)/etc/portage/$f"
 done
 
-
 sync_or_copy /etc/eselect/repository.conf "$(pwd)/etc/eselect/repository.conf"
 sync_or_copy /etc/portage/repos.conf "$(pwd)/etc/portage/repos.conf"
 sync_or_copy /var/lib/portage/world "$(pwd)/var/lib/portage/world"
@@ -48,9 +47,6 @@ rsync -a --delete /etc/modules-load.d/ "$(pwd)/etc/modules-load.d/"
 
 # fstab
 sync_or_copy /etc/fstab "$(pwd)/etc/fstab"
-
-# Samba config
-sync_or_copy /etc/samba/smb.conf "$(pwd)/etc/samba/smb.conf"
 
 # Name Service Switch configuration
 sync_or_copy /etc/nsswitch.conf "$(pwd)/etc/nsswitch.conf"

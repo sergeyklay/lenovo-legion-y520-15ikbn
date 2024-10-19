@@ -1,3 +1,5 @@
+net-im/telegram-desktop qt6-imageformats
+
 # required by net-im/telegram-desktop-5.6.0::gentoo
 # required by net-im/telegram-desktop (argument)
 >=media-video/ffmpeg-6.1.2 vpx opus

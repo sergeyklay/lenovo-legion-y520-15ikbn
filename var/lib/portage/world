@@ -16,8 +16,6 @@ app-misc/grc
 app-misc/jq
 app-misc/khard
 app-misc/mc
-app-misc/neofetch
-app-misc/tmux
 app-office/libreoffice
 app-portage/eix
 app-portage/gentoolkit
@@ -34,8 +32,10 @@ dev-debug/gdb
 dev-debug/strace
 dev-debug/valgrind
 dev-lang/go
+dev-lang/ruby
 dev-python/keyring
 dev-python/pip
+dev-python/psutil
 dev-python/vdirsyncer
 dev-util/cppcheck
 dev-util/ctags
@@ -56,6 +56,8 @@ gui-apps/wev::guru
 gui-apps/wofi
 gui-libs/xdg-desktop-portal-wlr
 gui-wm/sway
+mail-client/mutt
+mail-mta/msmtp
 media-fonts/dejavu
 media-fonts/droid
 media-fonts/fira-code
@@ -78,6 +80,9 @@ media-video/mpv
 net-dns/avahi
 net-im/telegram-desktop
 net-im/zoom
+net-libs/nodejs
+net-mail/isync
+net-mail/notmuch
 net-misc/chrony
 net-misc/curl
 net-misc/dhcpcd
@@ -106,7 +111,6 @@ sys-boot/grub
 sys-firmware/intel-microcode
 sys-fs/dosfstools
 sys-fs/exfatprogs
-sys-fs/fuse
 sys-fs/xfsprogs
 sys-kernel/gentoo-sources
 sys-kernel/installkernel

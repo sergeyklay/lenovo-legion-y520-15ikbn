@@ -1,5 +1,10 @@
-net-im/telegram-desktop qt6-imageformats
+net-im/telegram-desktop qt6-imageformats enchant screencast
 
 # required by net-im/telegram-desktop-5.6.0::gentoo
 # required by net-im/telegram-desktop (argument)
 >=media-video/ffmpeg-6.1.2 vpx opus
+
+# required by net-im/telegram-desktop-5.6.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/tg_owt-0_pre20240804-r1 screencast

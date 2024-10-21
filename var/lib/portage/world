@@ -2,6 +2,7 @@ app-admin/eclean-kernel
 app-admin/pass
 app-admin/sudo
 app-crypt/pinentry
+app-crypt/seahorse
 app-crypt/yubikey-manager
 app-editors/emacs
 app-editors/nano

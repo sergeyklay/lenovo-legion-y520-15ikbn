@@ -80,7 +80,6 @@ media-sound/alsa-utils
 media-video/mpv
 net-dns/avahi
 net-im/telegram-desktop
-net-im/zoom
 net-libs/nodejs
 net-mail/isync
 net-mail/notmuch

@@ -1,4 +1,4 @@
-www-client/firefox -clang l10n_en-GB l10n_ru l10n_pl -telemetry
+www-client/firefox l10n_en-GB l10n_ru l10n_pl llvm_slot_19 -llvm_slot_18 -telemetry
 
 # required by www-client/firefox-131.0::gentoo[system-libvpx]
 # required by www-client/firefox (argument)

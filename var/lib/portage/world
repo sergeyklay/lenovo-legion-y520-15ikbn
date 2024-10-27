@@ -6,6 +6,7 @@ app-crypt/seahorse
 app-crypt/yubikey-manager
 app-editors/emacs
 app-editors/nano
+app-emacs/ebuild-mode
 app-emulation/qemu
 app-emulation/virt-manager
 app-eselect/eselect-repository
@@ -40,8 +41,10 @@ dev-python/psutil
 dev-python/vdirsyncer
 dev-util/cppcheck
 dev-util/ctags
+dev-util/dart-sass
 dev-util/desktop-file-utils
 dev-util/global
+dev-util/pkgdev
 dev-vcs/git
 gnome-base/gnome-keyring
 gui-apps/foot
@@ -78,7 +81,9 @@ media-gfx/graphviz
 media-libs/libcamera
 media-sound/alsa-utils
 media-video/mpv
+media-video/pipewire
 net-dns/avahi
+net-fs/davfs2
 net-im/telegram-desktop
 net-libs/nodejs
 net-mail/isync
@@ -88,6 +93,7 @@ net-misc/curl
 net-misc/dhcpcd
 net-misc/networkmanager
 net-misc/yt-dlp
+net-p2p/syncthing
 net-p2p/transmission
 net-print/cups
 net-print/cups-meta

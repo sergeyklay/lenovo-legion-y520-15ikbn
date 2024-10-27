@@ -18,3 +18,5 @@ UUID="0E5F-5789"				/mnt/usb2	vfat	noauto,rw,user				0	0
 # /dev/sda1: 14.5G (Kingston DataTraveler)
 UUID="D807-3BF8"				/mnt/usb3	vfat	noauto,rw,user				0	0
 
+
+https://webdav.fastmail.com/			/home/serghei/webdav	davfs	rw,user,noauto			0	0

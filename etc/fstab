@@ -1,22 +1,22 @@
-# <file system>					<mount point>	<type>	<options>				<dump>	<pass>
+# <file system>                              <mount point>         <type>  <options>                          <dump>  <pass>
 
 # /dev/nvme0n1p1: 1G (PARTLABEL=efi)
-UUID="7A63-B24C"				/efi		vfat	umask=0077,fmask=0022,dmask=0022	0	2
+UUID="7A63-B24C"                             /efi                  vfat     umask=0077,fmask=0022,dmask=0022  0       2
 
 # /dev/nvme0n1p2: 16G (PARTLABEL=swap)
-UUID="e1a4240c-fa4d-4033-814a-4e02f88b85ae"	none		swap	sw					0	0
+UUID="e1a4240c-fa4d-4033-814a-4e02f88b85ae"  none                  swap     sw                                0       0
 
 # /dev/nvme0n1p3: 459.9G (PARTLABEL=root)
-UUID="2ae9dfd2-1cc4-4a3e-bcc1-7a0e9425aeb2"	/		xfs	defaults,noatime			0	1
+UUID="2ae9dfd2-1cc4-4a3e-bcc1-7a0e9425aeb2"  /                     xfs      defaults,noatime                  0       1
 
 # /dev/sda1: 114.6G (SanDisk Ultra Flair)
-UUID="9883-1305"				/mnt/usb1	vfat	noauto,rw,user				0	0
+UUID="9883-1305"                             /mnt/usb1             vfat     noauto,rw,user                    0       0
 
 # /dev/sda1: 114.6G (SanDisk Ultra Dual Drive)
-UUID="0E5F-5789"				/mnt/usb2	vfat	noauto,rw,user				0	0
+UUID="0E5F-5789"                             /mnt/usb2             vfat     noauto,rw,user                    0       0
 
 # /dev/sda1: 14.5G (Kingston DataTraveler)
-UUID="D807-3BF8"				/mnt/usb3	vfat	noauto,rw,user				0	0
+UUID="D807-3BF8"                             /mnt/usb3             vfat     noauto,rw,user                    0       0
 
 
-https://webdav.fastmail.com/			/home/serghei/webdav	davfs	rw,user,noauto			0	0
+https://webdav.fastmail.com/                 /home/serghei/webdav  davfs    rw,user,noauto                    0       0

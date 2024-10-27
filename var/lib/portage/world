@@ -81,7 +81,6 @@ media-gfx/graphviz
 media-libs/libcamera
 media-sound/alsa-utils
 media-video/mpv
-media-video/pipewire
 net-dns/avahi
 net-fs/davfs2
 net-im/telegram-desktop

@@ -1,4 +1,4 @@
-net-im/telegram-desktop qt6-imageformats enchant screencast
+net-im/telegram-desktop qt6-imageformats screencast
 
 # required by net-im/telegram-desktop-5.6.0::gentoo
 # required by net-im/telegram-desktop (argument)

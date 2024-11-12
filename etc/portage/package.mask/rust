@@ -1,0 +1,19 @@
+# Currently, I don't use dev-lang/rust directly, and Rust presence
+# on my system is purely dictated by build-time dependencies for
+# certain packages:
+#
+# - dev-python/cryptography
+# - dev-util/cbindgen
+# - dev-util/maturin
+# - gnome-base/librsvg
+# - sys-apps/fd
+# - sys-apps/ripgrep
+# - www-client/firefox
+# - ...
+#
+# All of these packages build just fine with either dev-lang/rust or
+# dev-lang/rust-bin. Therefore, I mask dev-lang/rust to force the use
+# of dev-lang/rust-bin when building other packages and speed up build
+# time.
+
+dev-lang/rust

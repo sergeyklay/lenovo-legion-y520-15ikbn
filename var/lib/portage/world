@@ -18,6 +18,7 @@ app-misc/grc
 app-misc/jq
 app-misc/khard
 app-misc/mc
+app-misc/yq-go
 app-office/libreoffice
 app-portage/eix
 app-portage/gentoolkit

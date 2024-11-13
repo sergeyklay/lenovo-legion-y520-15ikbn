@@ -79,7 +79,6 @@ media-fonts/terminus-font
 media-fonts/ubuntu-font-family
 media-fonts/unifont
 media-gfx/graphviz
-media-libs/libcamera
 media-sound/alsa-utils
 media-video/mpv
 net-dns/avahi

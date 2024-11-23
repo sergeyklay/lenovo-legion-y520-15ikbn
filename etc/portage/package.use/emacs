@@ -1,1 +1,7 @@
-app-editors/emacs m17n-lib mailutils source xft dynamic-loading sqlite ssl systemd tree-sitter jit json gui gtk -X -alsa
+app-editors/emacs m17n-lib mailutils source xft dynamic-loading sqlite ssl systemd tree-sitter jit json gui gtk webp libxml2 imagemagick harfbuzz -X -alsa
+
+# required by media-gfx/imagemagick-7.1.1.38-r2::gentoo[heif]
+# required by app-editors/emacs-29.4-r1::gentoo[gui,imagemagick]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libheif-1.18.2-r1 x265

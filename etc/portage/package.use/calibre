@@ -3,4 +3,5 @@
 >=dev-python/pillow-10.4.0 webp
 # required by app-text/calibre-7.19.0::gentoo[python_single_target_python3_12]
 # required by app-text/calibre (argument)
->=dev-python/PyQt6-6.7.1-r1 quick webchannel
+# move dev-python/PyQt6 dev-python/pyqt6
+>=dev-python/pyqt6-6.7.1-r1 quick webchannel

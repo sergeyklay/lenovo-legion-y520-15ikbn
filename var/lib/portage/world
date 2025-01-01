@@ -23,6 +23,7 @@ app-office/libreoffice
 app-portage/eix
 app-portage/gentoolkit
 app-shells/bash-completion
+app-shells/direnv
 app-shells/fzf
 app-text/calibre
 app-text/djview
@@ -35,7 +36,6 @@ dev-debug/gdb
 dev-debug/strace
 dev-debug/valgrind
 dev-lang/go
-dev-lang/ruby
 dev-python/keyring
 dev-python/pip
 dev-python/psutil

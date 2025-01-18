@@ -120,6 +120,7 @@ sys-kernel/gentoo-sources
 sys-kernel/installkernel
 sys-kernel/linux-firmware
 sys-process/htop
+sys-process/lsof
 www-client/elinks
 www-client/firefox
 x11-libs/pango

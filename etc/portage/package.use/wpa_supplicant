@@ -1,1 +1,1 @@
-net-wireless/wpa_supplicant -qt5
+net-wireless/wpa_supplicant -qt6

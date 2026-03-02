@@ -1,7 +1,0 @@
-gui-apps/waybar network pipewire -pulseaudio
-
-# required by dev-libs/libappindicator-12.10.1_p20200706::gentoo
-# required by gui-apps/waybar-0.9.7::gentoo[tray]
-# required by @selected
-# required by @world (argument)
->=dev-libs/libdbusmenu-16.04.0-r1 gtk3

@@ -1,12 +1,12 @@
-1: ideapad_wlan: Wireless LAN
+0: ideapad_wlan: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+1: ideapad_bluetooth: Bluetooth
 	Soft blocked: no
 	Hard blocked: no
 2: phy0: Wireless LAN
 	Soft blocked: no
 	Hard blocked: no
-3: ideapad_bluetooth: Bluetooth
-	Soft blocked: no
-	Hard blocked: no
-4: hci0: Bluetooth
+3: hci0: Bluetooth
 	Soft blocked: no
 	Hard blocked: no

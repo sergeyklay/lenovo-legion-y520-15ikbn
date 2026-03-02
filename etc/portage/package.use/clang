@@ -1,1 +1,1 @@
-llvm-core/clang doc
+llvm-core/clang -doc

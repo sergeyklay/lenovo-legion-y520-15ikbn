@@ -1,1 +1,1 @@
-app-admin/pass -X -dmenu git wayland emacs
+app-admin/pass -X -dmenu git emacs

@@ -1,1 +1,1 @@
-dev-build/cmake doc
+dev-build/cmake -doc

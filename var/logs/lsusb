@@ -1,5 +1,6 @@
 
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Negotiated speed: High Speed (480Mbps)
 Device Descriptor:
   bLength                18
   bDescriptorType         1
@@ -10,8 +11,8 @@ Device Descriptor:
   bMaxPacketSize0        64
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0002 2.0 root hub
-  bcdDevice            6.11
-  iManufacturer           3 Linux 6.11.3-gentoo xhci-hcd
+  bcdDevice            6.19
+  iManufacturer           3 Linux 6.19.4-gentoo xhci-hcd
   iProduct                2 xHCI Host Controller
   iSerial                 1 0000:00:14.0
   bNumConfigurations      1
@@ -78,7 +79,8 @@ Hub Descriptor:
 Device Status:     0x0001
   Self Powered
 
-Bus 001 Device 003: ID 04f2:b57e Chicony Electronics Co., Ltd EasyCamera
+Bus 001 Device 002: ID 04f2:b57e Chicony Electronics Co., Ltd EasyCamera
+Negotiated speed: High Speed (480Mbps)
 Device Descriptor:
   bLength                18
   bDescriptorType         1
@@ -201,6 +203,11 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x0010  1x 16 bytes
         bInterval               6
+        VideoControl Endpoint Descriptor:
+          bLength                 5
+          bDescriptorType        37
+          bDescriptorSubtype      3 (EP_INTERRUPT)
+          wMaxTransferSize       16
     Interface Descriptor:
       bLength                 9
       bDescriptorType         4
@@ -669,7 +676,8 @@ Device Qualifier (for other device speed):
 Device Status:     0x0000
   (Bus Powered)
 
-Bus 001 Device 004: ID 8087:0a2b Intel Corp. Bluetooth wireless interface
+Bus 001 Device 003: ID 8087:0a2b Intel Corp. Bluetooth wireless interface
+Negotiated speed: Full Speed (12Mbps)
 Device Descriptor:
   bLength                18
   bDescriptorType         1
@@ -920,6 +928,7 @@ Device Status:     0x0001
   Self Powered
 
 Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Negotiated speed: SuperSpeed (5Gbps)
 Device Descriptor:
   bLength                18
   bDescriptorType         1
@@ -930,8 +939,8 @@ Device Descriptor:
   bMaxPacketSize0         9
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0003 3.0 root hub
-  bcdDevice            6.11
-  iManufacturer           3 Linux 6.11.3-gentoo xhci-hcd
+  bcdDevice            6.19
+  iManufacturer           3 Linux 6.19.4-gentoo xhci-hcd
   iProduct                2 xHCI Host Controller
   iSerial                 1 0000:00:14.0
   bNumConfigurations      1
@@ -967,6 +976,7 @@ Device Descriptor:
         wMaxPacketSize     0x0004  1x 4 bytes
         bInterval              12
         bMaxBurst               0
+        wBytesPerInterval       2
 Binary Object Store Descriptor:
   bLength                 5
   bDescriptorType        15

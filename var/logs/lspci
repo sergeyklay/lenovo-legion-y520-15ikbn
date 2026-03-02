@@ -1,12 +1,22 @@
 00:00.0 Host bridge: Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers (rev 05)
 	Subsystem: Lenovo Device 3804
 	Flags: bus master, fast devsel, latency 0, IOMMU group 1
-	Capabilities: [e0] Vendor Specific Information: Len=10 <?>
+	Capabilities: [e0] Vendor Specific Information: Intel Capabilities v1
+		CapA: Peg60Dis- Peg12Dis+ Peg11Dis+ Peg10Dis- PeLWUDis- DmiWidth=x4
+		      EccDis+ ForceEccEn- VTdDis- DmiG2Dis- PegG2Dis- DDRMaxSize=Unlimited
+		      1NDis- CDDis- DDPCDis- X2APICEn+ PDCDis- IGDis- CDID=0 CRID=5
+		      DDROCCAP+ OCEn- DDRWrtVrefEn- DDR3LEn+
+		CapB: ImguDis+ OCbySSKUCap- OCbySSKUEn- SMTCap+ CacheSzCap 0x2
+		      SoftBinCap- DDR3MaxFreqWithRef100=Unlimited PegG3Dis-
+		      PkgTyp- AddGfxEn+ AddGfxCap- PegX16Dis- DmiG3Dis- GmmDis-
+		      DDR3MaxFreq=2666MHz LPDDR3En+
+		CapC: PegG4Dis- DDR4MaxFreq=Unlimited LPDDREn- LPDDR4MaxFreq=0MHz LPDDR4En-
+		      QClkGvDis+ SgxDis- BClkOC=Disabled IddDis- Pipe3Dis- Gear1MaxFreq=Unlimited
 	Kernel driver in use: skl_uncore
 
 00:01.0 PCI bridge: Intel Corporation 6th-10th Gen Core Processor PCIe Controller (x16) (rev 05) (prog-if 00 [Normal decode])
 	Subsystem: Lenovo Device 3804
-	Flags: bus master, fast devsel, latency 0, IRQ 122, IOMMU group 2
+	Flags: bus master, fast devsel, latency 0, IRQ 123, IOMMU group 2
 	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
 	I/O behind bridge: 4000-4fff [size=4K] [16-bit]
 	Memory behind bridge: a3000000-a3ffffff [size=16M] [32-bit]
@@ -19,15 +29,24 @@
 	Capabilities: [140] Root Complex Link
 	Capabilities: [d94] Secondary PCI Express
 	Kernel driver in use: pcieport
+	Kernel modules: shpchp
 
 00:02.0 VGA compatible controller: Intel Corporation HD Graphics 630 (rev 04) (prog-if 00 [VGA controller])
 	Subsystem: Lenovo Device 39d1
-	Flags: bus master, fast devsel, latency 0, IRQ 127, IOMMU group 0
+	Flags: bus master, fast devsel, latency 0, IRQ 128, IOMMU group 0
 	Memory at a2000000 (64-bit, non-prefetchable) [size=16M]
 	Memory at b0000000 (64-bit, prefetchable) [size=256M]
 	I/O ports at 5000 [size=64]
 	Expansion ROM at 000c0000 [virtual] [disabled] [size=128K]
-	Capabilities: [40] Vendor Specific Information: Len=0c <?>
+	Capabilities: [40] Vendor Specific Information: Intel Capabilities v1
+		CapA: Peg60Dis- Peg12Dis+ Peg11Dis+ Peg10Dis- PeLWUDis- DmiWidth=x4
+		      EccDis+ ForceEccEn- VTdDis- DmiG2Dis- PegG2Dis- DDRMaxSize=Unlimited
+		      1NDis- CDDis- DDPCDis- X2APICEn+ PDCDis- IGDis- CDID=0 CRID=5
+		      DDROCCAP+ OCEn- DDRWrtVrefEn- DDR3LEn+
+		CapB: ImguDis+ OCbySSKUCap- OCbySSKUEn- SMTCap+ CacheSzCap 0x2
+		      SoftBinCap- DDR3MaxFreqWithRef100=Unlimited PegG3Dis-
+		      PkgTyp- AddGfxEn+ AddGfxCap- PegX16Dis- DmiG3Dis- GmmDis-
+		      DDR3MaxFreq=2666MHz LPDDR3En+
 	Capabilities: [70] Express Root Complex Integrated Endpoint, IntMsgNum 0
 	Capabilities: [ac] MSI: Enable+ Count=1/1 Maskable- 64bit-
 	Capabilities: [d0] Power Management version 2
@@ -35,10 +54,11 @@
 	Capabilities: [200] Address Translation Service (ATS)
 	Capabilities: [300] Page Request Interface (PRI)
 	Kernel driver in use: i915
+	Kernel modules: i915
 
 00:14.0 USB controller: Intel Corporation 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller (rev 31) (prog-if 30 [XHCI])
 	Subsystem: Lenovo Device 381d
-	Flags: bus master, medium devsel, latency 0, IRQ 130, IOMMU group 3
+	Flags: bus master, medium devsel, latency 0, IRQ 143, IOMMU group 3
 	Memory at a4410000 (64-bit, non-prefetchable) [size=64K]
 	Capabilities: [70] Power Management version 2
 	Capabilities: [80] MSI: Enable+ Count=8/8 Maskable- 64bit+
@@ -56,7 +76,7 @@
 
 00:16.0 Communication controller: Intel Corporation 100 Series/C230 Series Chipset Family MEI Controller #1 (rev 31)
 	Subsystem: Lenovo Device 381e
-	Flags: bus master, fast devsel, latency 0, IRQ 147, IOMMU group 4
+	Flags: bus master, fast devsel, latency 0, IRQ 130, IOMMU group 4
 	Memory at a442b000 (64-bit, non-prefetchable) [size=4K]
 	Capabilities: [50] Power Management version 3
 	Capabilities: [8c] MSI: Enable+ Count=1/1 Maskable- 64bit+
@@ -65,7 +85,7 @@
 
 00:17.0 SATA controller: Intel Corporation HM170/QM170 Chipset SATA Controller [AHCI Mode] (rev 31) (prog-if 01 [AHCI 1.0])
 	Subsystem: Lenovo Device 3803
-	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 128, IOMMU group 5
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 129, IOMMU group 5
 	Memory at a4428000 (32-bit, non-prefetchable) [size=8K]
 	Memory at a442e000 (32-bit, non-prefetchable) [size=256]
 	I/O ports at 5080 [size=8]
@@ -80,7 +100,7 @@
 
 00:1c.0 PCI bridge: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #2 (rev f1) (prog-if 00 [Normal decode])
 	Subsystem: Lenovo Device 3804
-	Flags: bus master, fast devsel, latency 0, IRQ 123, IOMMU group 6
+	Flags: bus master, fast devsel, latency 0, IRQ 124, IOMMU group 6
 	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
 	I/O behind bridge: [disabled] [16-bit]
 	Memory behind bridge: a4300000-a43fffff [size=1M] [32-bit]
@@ -94,10 +114,11 @@
 	Capabilities: [200] L1 PM Substates
 	Capabilities: [220] Secondary PCI Express
 	Kernel driver in use: pcieport
+	Kernel modules: shpchp
 
 00:1c.2 PCI bridge: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #3 (rev f1) (prog-if 00 [Normal decode])
 	Subsystem: Lenovo Device 3809
-	Flags: bus master, fast devsel, latency 0, IRQ 124, IOMMU group 7
+	Flags: bus master, fast devsel, latency 0, IRQ 125, IOMMU group 7
 	Bus: primary=00, secondary=03, subordinate=03, sec-latency=0
 	I/O behind bridge: [disabled] [16-bit]
 	Memory behind bridge: a4200000-a42fffff [size=1M] [32-bit]
@@ -111,10 +132,11 @@
 	Capabilities: [200] L1 PM Substates
 	Capabilities: [220] Secondary PCI Express
 	Kernel driver in use: pcieport
+	Kernel modules: shpchp
 
 00:1c.3 PCI bridge: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #4 (rev f1) (prog-if 00 [Normal decode])
 	Subsystem: Lenovo Device 3808
-	Flags: bus master, fast devsel, latency 0, IRQ 125, IOMMU group 8
+	Flags: bus master, fast devsel, latency 0, IRQ 126, IOMMU group 8
 	Bus: primary=00, secondary=04, subordinate=04, sec-latency=0
 	I/O behind bridge: 3000-3fff [size=4K] [16-bit]
 	Memory behind bridge: a4100000-a41fffff [size=1M] [32-bit]
@@ -127,10 +149,11 @@
 	Capabilities: [140] Access Control Services
 	Capabilities: [220] Secondary PCI Express
 	Kernel driver in use: pcieport
+	Kernel modules: shpchp
 
 00:1d.0 PCI bridge: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #9 (rev f1) (prog-if 00 [Normal decode])
 	Subsystem: Lenovo Device 380e
-	Flags: bus master, fast devsel, latency 0, IRQ 126, IOMMU group 9
+	Flags: bus master, fast devsel, latency 0, IRQ 127, IOMMU group 9
 	Bus: primary=00, secondary=05, subordinate=05, sec-latency=0
 	I/O behind bridge: [disabled] [16-bit]
 	Memory behind bridge: a4000000-a40fffff [size=1M] [32-bit]
@@ -144,6 +167,7 @@
 	Capabilities: [200] L1 PM Substates
 	Capabilities: [220] Secondary PCI Express
 	Kernel driver in use: pcieport
+	Kernel modules: shpchp
 
 00:1f.0 ISA bridge: Intel Corporation HM175 Chipset LPC/eSPI Controller (rev 31)
 	Subsystem: Lenovo Device 3803
@@ -154,15 +178,13 @@
 	Flags: bus master, fast devsel, latency 0, IOMMU group 10
 	Memory at a4424000 (32-bit, non-prefetchable) [size=16K]
 
-00:1f.3 Audio device: Intel Corporation CM238 HD Audio Controller (rev 31)
+00:1f.3 Audio device: Intel Corporation CM238 HD Audio Controller (rev 31) (prog-if 00 [HDA compatible])
 	Subsystem: Lenovo Device 3803
-	Flags: bus master, fast devsel, latency 32, IRQ 149, IOMMU group 10
+	Flags: bus master, fast devsel, latency 32, IRQ 255, IOMMU group 10
 	Memory at a4420000 (64-bit, non-prefetchable) [size=16K]
 	Memory at a4400000 (64-bit, non-prefetchable) [size=64K]
 	Capabilities: [50] Power Management version 3
-	Capabilities: [60] MSI: Enable+ Count=1/1 Maskable- 64bit+
-	Kernel driver in use: snd_hda_intel
-	Kernel modules: snd_hda_intel
+	Capabilities: [60] MSI: Enable- Count=1/1 Maskable- 64bit+
 
 00:1f.4 SMBus: Intel Corporation 100 Series/C230 Series Chipset Family SMBus (rev 31)
 	Subsystem: Lenovo Device 3817
@@ -193,7 +215,7 @@
 
 02:00.0 SD Host controller: O2 Micro, Inc. SD/MMC Card Reader Controller (rev 01) (prog-if 01)
 	Subsystem: Lenovo Device 381f
-	Flags: bus master, fast devsel, latency 0, IRQ 146, IOMMU group 11
+	Flags: bus master, fast devsel, latency 0, IRQ 141, IOMMU group 11
 	Memory at a4301000 (32-bit, non-prefetchable) [size=4K]
 	Memory at a4300000 (32-bit, non-prefetchable) [size=2K]
 	Capabilities: [6c] Power Management version 3
@@ -208,7 +230,7 @@
 
 03:00.0 Network controller: Intel Corporation Wireless 8265 / 8275 (rev 78)
 	Subsystem: Intel Corporation Dual Band Wireless-AC 8265
-	Flags: bus master, fast devsel, latency 0, IRQ 150, IOMMU group 12
+	Flags: bus master, fast devsel, latency 0, IRQ 142, IOMMU group 12
 	Memory at a4200000 (64-bit, non-prefetchable) [size=8K]
 	Capabilities: [c8] Power Management version 3
 	Capabilities: [d0] MSI: Enable+ Count=1/1 Maskable- 64bit+

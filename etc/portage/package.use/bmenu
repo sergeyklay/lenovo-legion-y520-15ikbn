@@ -1,3 +1,0 @@
-# required by dev-libs/bemenu-0.6.21::gentoo[X]
-# required by dev-libs/bemenu (argument)
->=x11-libs/pango-1.52.2 X

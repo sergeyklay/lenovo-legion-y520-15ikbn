@@ -1,1 +1,0 @@
-media-video/mpv -cdda -xv -X -opengl drm pipewire openal

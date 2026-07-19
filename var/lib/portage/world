@@ -1,6 +1,10 @@
 app-admin/eclean-kernel
 app-admin/pass
 app-admin/sudo
+app-containers/docker
+app-containers/docker-buildx
+app-containers/docker-cli
+app-containers/docker-compose
 app-crypt/pinentry
 app-crypt/yubikey-manager
 app-editors/emacs
@@ -13,6 +17,7 @@ app-misc/grc
 app-misc/jq
 app-misc/khard
 app-misc/mc
+app-misc/tmux
 app-misc/yq-go
 app-portage/eix
 app-portage/gentoolkit
@@ -61,4 +66,5 @@ sys-kernel/linux-firmware
 sys-libs/binutils-libs
 sys-process/htop
 sys-process/lsof
+www-apps/gitea
 www-client/elinks
